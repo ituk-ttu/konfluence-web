@@ -1,1 +1,3 @@
-# lauri, tibukene, täida see ise ära :))) kõik õigused on antud ka
+language: node.js
+node_js:
+  - "node"
