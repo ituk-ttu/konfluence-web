@@ -1,4 +1,4 @@
-# konfluence-web
+# Konfluence Vue.js app
 
 ## Project setup
 ```
