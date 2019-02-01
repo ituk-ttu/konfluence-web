@@ -364,7 +364,7 @@ input.input100 {
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1-parent {
   position: relative;
@@ -378,7 +378,7 @@ input.input100 {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -582,7 +582,7 @@ input.input100 {
   .respon1 {
     padding-top: 35px;
   }
-  
+
 }
 
 
@@ -611,5 +611,5 @@ input.input100 {
 }
 
 .make-title-bigger {
-  font-size: 100px !important;
+  font-size: 12vw !important;
 }
