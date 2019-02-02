@@ -51,12 +51,4 @@ export default {
 <style lang="scss">
   @import "~bulma/css/bulma.css";
   @import url('https://fonts.googleapis.com/css?family=Lato');
-/*
-  p {
-    margin: 0;
-    font-size: 2rem;
-    color: #333333;
-  }
-*/
-
 </style>

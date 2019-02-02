@@ -10,8 +10,12 @@
 </template>
 
 <script>
+
 export default {
   name: "Wrapper",
+  components: {
+
+  },
   props: {
     title: String,
     text: String
