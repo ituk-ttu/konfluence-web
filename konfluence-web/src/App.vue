@@ -1,15 +1,23 @@
-<template lang="pug">
-  #app
-    HelloWorld(msg="My dick is bigger than yours and your dick's got HIV")
+<template>
+  <div id="app">
+    <Bubbles
+      color="yellow"
+      direction="up"
+      speed="0.4"
+    />
+    <HelloWorld />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld'
+import Bubbles from './components/background/Bubbles'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Bubbles
   }
 }
 </script>
