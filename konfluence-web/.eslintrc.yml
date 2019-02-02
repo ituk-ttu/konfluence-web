@@ -1,1 +1,10 @@
-extends: standard
+extends:
+  - eslint:recommended
+  - plugin:vue/recommended
+root: true
+env:
+  es6: true
+  node: true
+plugins:
+  - vue
+  - prettier

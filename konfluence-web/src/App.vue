@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="My dick is bigger than yours and your dick's got HIV"/>
   </div>
 </template>
 
+// eslint-disable-next-line
 <script>
   import HelloWorld from './components/HelloWorld.vue'
 
