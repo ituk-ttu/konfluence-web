@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Bubbles
+    <Bubble
       color="yellow"
       direction="up"
       speed="0.4"
@@ -23,13 +23,12 @@
 
 <script>
 import Wrapper from './components/ic_components/Wrapper'
-import Bubbles from './components/background/Bubbles'
+import Bubble from './components/background/Bubble'
 
 export default {
   name: 'App',
   components: {
-    Wrapper,
-    Bubbles
+    Bubble
   }
 }
 </script>

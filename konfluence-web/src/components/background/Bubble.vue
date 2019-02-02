@@ -23,7 +23,7 @@
 import Parallax from 'vue-parallaxy'
 
 export default {
-  name: 'Bubbles',
+  name: 'Bubble',
   components: {
     Parallax
   },
