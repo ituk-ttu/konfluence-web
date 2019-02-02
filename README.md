@@ -1,6 +1,6 @@
 # Konfluence
 
-# Sublayers
+## Sublayers
 * Home
 * About
 * Speakers
@@ -9,5 +9,5 @@
 * Sponsors
 * Organizers
 
-# Colors
+## Colors
 https://flatuicolors.com/palette/de
