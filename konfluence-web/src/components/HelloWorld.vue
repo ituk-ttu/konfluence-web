@@ -2,20 +2,38 @@
   <div>
     <h1>{{ msg }}</h1>
     <h3>Davai lets do it</h3>
+    <wrapper text="Siin on tekst" />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <wrapper text="Siin on teine tekst" />
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
-    props: {
-      msg: String
-    }
+import Wrapper from '../assets/Wrapper'
+
+export default {
+  name: 'HelloWorld',
+  components: {
+    Wrapper
+  },
+  props: {
+    msg: String
   }
+}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+  div {
+    padding: 0 4rem 0;
+  }
+
   h3 {
     margin: 40px 0 0;
   }
