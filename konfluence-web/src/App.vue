@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './components/Konfluence'
 import Bubbles from './components/background/Bubbles'
 
 export default {

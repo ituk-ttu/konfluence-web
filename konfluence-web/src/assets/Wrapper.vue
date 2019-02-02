@@ -1,18 +1,16 @@
 <template>
-  <div>
-    <div>
-      <h1>{{ text }}</h1>
+  <div
+    class="wrapper"
+    :class="direction"
+  >
+    <div class="text-flex">
+      <p>{{ text }}</p>
     </div>
 
-    <div
+    <img
       v-if="imagePath"
-      id="imageBox"
+      :src="imagePath"
     >
-      <img
-        v-if="imagePath"
-        :src="imagePath"
-      >
-    </div>
   </div>
 </template>
 
@@ -21,13 +19,15 @@ export default {
   name: "Wrapper",
   props: {
     imagePath: String,
-    text: String
-  }
+    text: String,
+    direction: String
+  },
 }
 </script>
 
 <style scoped>
-    div {
+    .wrapper {
+        display: flex;
         padding: 2rem;
         background-color: #26de81;
         width: 50rem;
@@ -38,4 +38,20 @@ export default {
         -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
         box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
     }
+
+   img {
+    height: 100%;
+   }
+
+   .text-flex {
+     padding: 1rem;
+   }
+
+  .left {
+    flex-direction: row-reverse;
+  }
+
+  .right {
+    flex-direction: row;
+  }
 </style>
