@@ -1,10 +1,6 @@
 <template>
   <div id="app" class="container">
-    <bubble
-      color="yellow"
-      direction="up"
-      speed="0.4"
-    />
+    <Background />
     <div>
       <wrapper
         direction="right"
@@ -29,13 +25,13 @@
 
 <script>
 import Wrapper from './components/ic_components/Wrapper'
-import Bubble from './components/background/Bubble'
+import Background from './components/background/Background'
 
 export default {
   name: 'App',
   components: {
-    Wrapper,
-    Bubble
+    Background,
+    Wrapper
   }
 }
 </script>
