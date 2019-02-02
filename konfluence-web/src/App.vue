@@ -14,7 +14,7 @@ import Launch from './components/Launch'
 export default {
   name: 'App',
   components: {
-      Launch,
+    Launch,
     Background,
     PageContent
   }
@@ -30,7 +30,6 @@ export default {
     color: #2c3e50;
     background-color: #f7f7f7;
   }
-
 
   h3 {
     margin: 40px 0 0;
