@@ -35,7 +35,9 @@
         </div>
       </div>
     </section>
-    <section class="hero is-medium gradient" />
+    <section class="hero is-medium gradient">
+      <div class="hero-body" />
+    </section>
   </div>
 </template>
 
