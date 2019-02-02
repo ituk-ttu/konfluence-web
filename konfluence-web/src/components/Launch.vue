@@ -36,6 +36,10 @@
     src: url(../assets/fonts/KeepCalm-Medium.ttf) format('ttf')
   }
 
+  .hero {
+    text-align: left;
+  }
+
   .button {
     margin-right: 10px;
   }

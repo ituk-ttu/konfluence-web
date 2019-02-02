@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Background />
+    <Launch />
     <page-content />
   </div>
 </template>
@@ -8,10 +9,12 @@
 <script>
 import Background from './components/background/Background'
 import PageContent from './Content'
+import Launch from './components/Launch'
 
 export default {
   name: 'App',
   components: {
+      Launch,
     Background,
     PageContent
   }
