@@ -8,6 +8,7 @@
     </div>
 
     <img
+      class="image"
       v-if="imagePath"
       :src="imagePath"
     >
@@ -28,11 +29,12 @@ export default {
 <style scoped>
     .wrapper {
         display: flex;
-        padding: 2rem;
         background-color: #26de81;
-        width: 50rem;
+        width: 70rem;
         height: 30rem;
         border-radius: 0.3rem;
+      overflow: hidden;
+        padding: 0;
         text-align: justify;
         -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
         -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
@@ -53,5 +55,9 @@ export default {
 
   .right {
     flex-direction: row;
+  }
+
+  .image {
+    padding: inherit;
   }
 </style>
