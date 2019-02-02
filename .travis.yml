@@ -3,6 +3,9 @@ os: linux
 sudo: true
 node_js:
   - "node"
+branches:
+  only:
+    - develop
 install:
   - cd konfluence-web
   - npm i
