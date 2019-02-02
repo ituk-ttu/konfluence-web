@@ -1,18 +1,11 @@
 <template>
-  <div
-    class="wrapper columns"
-    :class="direction"
-  >
-    <div class="column is-6 text-padding">
-      <p>{{ text }}</p>
-    </div>
-
-    <div class="column">
-      <img
-        v-if="imagePath"
-        :src="imagePath"
-      >
-    </div>
+  <div class="wrapper">
+    <slot name="content">
+      <div class="text-padding">
+        <h1>{{ title }}</h1>
+        <p>{{ text }}</p>
+      </div>
+    </slot>
   </div>
 </template>
 
@@ -20,9 +13,8 @@
 export default {
   name: "Wrapper",
   props: {
-    imagePath: String,
-    text: String,
-    direction: String
+    title: String,
+    text: String
   }
 }
 </script>
@@ -30,32 +22,19 @@ export default {
 <style scoped>
     .wrapper {
       display: flex;
-      background-color: #26de81;
-      height: 30rem;
+      background-color: white;
+      height: 25rem;
       border-radius: 0.3rem;
       overflow: hidden;
       padding: 0;
-      margin: 5rem;
+      margin: 5rem 0;
       text-align: justify;
       -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
       -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
       box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
     }
 
-   img {
-     height: 100%;
-     padding: inherit;
-   }
-
    .text-padding {
      padding: 2rem;
    }
-
-    .left {
-      flex-direction: row-reverse;
-    }
-
-    .right {
-      flex-direction: row;
-    }
 </style>
