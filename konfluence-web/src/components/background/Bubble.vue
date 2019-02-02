@@ -1,55 +1,43 @@
 <template>
-  <div>
-    <parallax
-      :speed-factor="speed"
-      :direction="direction"
-    >
+  <div class="parallax-container">
+    <v-parralax>
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="256"
-        height="256"
-        viewBox="0 0 256 256"
+        height="max"
+        width="max"
       >
-        <path
-          :class="color"
-          d="M256.3 128.2c0 70.8-57.4 128.2-128.2 128.2C57.4 256.3 0 199 0 128.2S57.4 0 128.2 0C199 0 256.3 57.4 256.3 128.2z"
-        />
+        <circle
+          :cx="cx"
+          :cy="cy"
+          :r="radius"
+          :fill="color"
+        ></circle>
       </svg>
-    </parallax>
+    </v-parralax>
   </div>
 </template>
 
 <script>
-import Parallax from 'vue-parallaxy'
+import VParralax from 'vuetify'
 
 export default {
   name: 'Bubble',
   components: {
-    Parallax
+    VParralax
   },
   props: {
-    color: String,
-    direction: String,
-    speed: Number
+    color: {
+      red: '#DB4437',
+      blue: '#0984E3',
+      green: '#0F9D58',
+      yellow: '#F4B400'
+    },
+    cx: String,
+    cy: String,
+    radius: String
   }
 }
 </script>
 
 <style scoped>
-  .red {
-    fill: #DB4437;
-  }
-
-  .yellow {
-    fill: #F4B400;
-  }
-
-  .blue {
-    fill: #0984E3;
-  }
-
-  .green {
-    fill: #0F9D58;
-  }
 
 </style>

@@ -1,10 +1,14 @@
 language: node_js
 os: linux
+sudo: true
 node_js:
   - "node"
+branches:
+  only:
+    - develop
 install:
-  - npm
   - cd konfluence-web
+  - npm i
 script:
   - npm run build
 after_success: skip
