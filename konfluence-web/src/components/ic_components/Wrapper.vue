@@ -1,17 +1,18 @@
 <template>
   <div
-    class="wrapper"
+    class="wrapper columns"
     :class="direction"
   >
-    <div class="text-flex">
+    <div class="column is-6 text-padding">
       <p>{{ text }}</p>
     </div>
 
-    <img
-      class="image"
-      v-if="imagePath"
-      :src="imagePath"
-    >
+    <div class="column">
+      <img
+        v-if="imagePath"
+        :src="imagePath"
+      >
+    </div>
   </div>
 </template>
 
@@ -22,42 +23,39 @@ export default {
     imagePath: String,
     text: String,
     direction: String
-  },
+  }
 }
 </script>
 
 <style scoped>
     .wrapper {
-        display: flex;
-        background-color: #26de81;
-        width: 70rem;
-        height: 30rem;
-        border-radius: 0.3rem;
+      display: flex;
+      background-color: #26de81;
+      height: 30rem;
+      border-radius: 0.3rem;
       overflow: hidden;
-        padding: 0;
-        text-align: justify;
-        -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
-        -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
-        box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
+      padding: 0;
+      margin: 5rem;
+      text-align: justify;
+      -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
+      -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
+      box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
     }
 
    img {
-    height: 100%;
+     height: 100%;
+     padding: inherit;
    }
 
-   .text-flex {
-     padding: 1rem;
+   .text-padding {
+     padding: 2rem;
    }
 
-  .left {
-    flex-direction: row-reverse;
-  }
+    .left {
+      flex-direction: row-reverse;
+    }
 
-  .right {
-    flex-direction: row;
-  }
-
-  .image {
-    padding: inherit;
-  }
+    .right {
+      flex-direction: row;
+    }
 </style>
