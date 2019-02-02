@@ -43,7 +43,7 @@ export default {
 <style scoped>
 
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: Lato, 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -72,6 +72,7 @@ export default {
 
 <style lang="scss">
   @import "~bulma/css/bulma.css";
+  @import url('https://fonts.googleapis.com/css?family=Lato');
 /*
   p {
     margin: 0;
