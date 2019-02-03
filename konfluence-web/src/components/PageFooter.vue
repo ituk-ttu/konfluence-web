@@ -1,7 +1,7 @@
 <template>
   <div class="footer columns">
     <div class="column is-8">
-      <p>This webpage is the property of RaimondMaeKaspar Creations incorporated limited 2019</p>
+      <p>This webpage is the property of RaimondMaeKaspar Creations incorporated limited {{getYear()}}</p>
     </div>
     <a href="https://ituk.ee/">
       <img
@@ -14,7 +14,12 @@
 
 <script>
 export default {
-  name: "PageFooter"
+  name: "PageFooter",
+  methods: {
+    getYear: function () {
+      return new Date().getFullYear().toString()
+    }
+  }
 }
 </script>
 
