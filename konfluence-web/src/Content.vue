@@ -6,7 +6,7 @@
     <text-image-wrapper
       id="about"
       title="About"
-      text="TBA"
+      text="Konfluence is a front-end suunatud?? conference organised by IT students in TalTech University. Konfluence is to take place by the end of April"
       image-align="left"
       image-path="http://craftagency.co.uk/sites/default/files/CraftBlog_Leeds_AllDayHey_Conference_2.jpg"
     />
@@ -19,10 +19,12 @@
       image-path="https://2017.front-trends.com/static/img/conference.jpg"
     />
 
-    <wrapper
+    <text-image-wrapper
       id="venue"
       title="Venue"
-      text="TBA"
+      text="TalTech Mektory Innovatsiooni- ja ettevõtluskeskus, Raja 4c Tallinn"
+      image-align="left"
+      image-path="https://i.imgur.com/6o2c1JK.jpg"
     />
 
     <wrapper
@@ -34,13 +36,13 @@
     <wrapper
       id="sponsors"
       title="Sponsors"
-      text="TBA"
+      text="TalTech money fund"
     />
 
     <wrapper
       id="organizers"
       title="Organizers"
-      text="TBA"
+      text="ITÜK"
     />
   </div>
 </template>
