@@ -1,6 +1,6 @@
 <template>
   <div
-    id="app"
+    id="content"
     class="container"
   >
     <text-image-wrapper
