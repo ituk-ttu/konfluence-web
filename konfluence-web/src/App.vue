@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <background />
     <nav-bar />
     <launch />
     <page-content />
@@ -18,7 +17,6 @@ export default {
   name: 'App',
   components: {
     Launch,
-    Background,
     NavBar,
     PageContent,
     jQueryBackground
