@@ -55,6 +55,7 @@ export default {
 
   .hero {
     text-align: left;
+    z-index: 10;
   }
 
   .button {

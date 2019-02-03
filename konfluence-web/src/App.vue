@@ -1,9 +1,9 @@
 <template>
   <div id="app">
+    <j-query-background />
     <nav-bar />
     <launch />
     <page-content />
-    <j-query-background />
   </div>
 </template>
 

@@ -60,14 +60,14 @@ function parallaxScroll() {
   }
 
   #parallax-lvl-1 {
-    z-index: 0;
+    z-index: -1;
   }
 
   #parallax-lvl-2 {
-    z-index: 10;
+    z-index: -2;
   }
 
   #parallax-lvl-3 {
-    z-index: 20;
+    z-index: 5;
   }
 </style>
