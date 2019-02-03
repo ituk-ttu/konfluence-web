@@ -1,6 +1,8 @@
 language: node_js
 os: linux
 sudo: true
+notifications:
+  slack: konfluence:sa3Y4lQGFjkJbv6kRlNqpHZM
 addons:
   apt:
     packages:
