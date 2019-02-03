@@ -11,33 +11,6 @@
     <div id="parallax-lvl-3">
       <Bubble v-for="n in 7" v-bind:top="getRandomTop()" v-bind:left="getRandomLeft()"></Bubble>
     </div>
-
-    <!--<div id="parallax-lvl-1">
-      <div id="b1-1" class="bubble size1 blue">&nbsp;</div>
-      <div id="b1-2" class="bubble size4 blue">&nbsp;</div>
-      <div id="b1-3" class="bubble size4 orange">&nbsp;</div>
-      <div id="b1-4" class="bubble size2 pink">&nbsp;</div>
-      <div id="b1-5" class="bubble size1 green">&nbsp;</div>
-      <div id="b1-6" class="bubble size2 purplhe">&nbsp;</div>
-    </div>
-
-    <div id="parallax-lvl-2">
-      <div id="b2-1" class="bubble size2 blue">&nbsp;</div>
-      <div id="b2-2" class="bubble size1 pink">&nbsp;</div>
-      <div id="b2-3" class="bubble size2 green">&nbsp;</div>
-      <div id="b2-4" class="bubble size2 purple">&nbsp;</div>
-      <div id="b2-5" class="bubble size3 pink">&nbsp;</div>
-      <div id="b2-6" class="bubble size1 orange">&nbsp;</div>
-    </div>
-
-    <div id="parallax-lvl-3">
-      <div id="b3-1" class="bubble size2 green">&nbsp;</div>
-      <div id="b3-2" class="bubble size2 pink">&nbsp;</div>
-      <div id="b3-3" class="bubble size1 green">&nbsp;</div>
-      <div id="b3-4" class="bubble size4 green">&nbsp;</div>
-      <div id="b3-5" class="bubble size1 purple">&nbsp;</div>
-      <div id="b3-6" class="bubble size2 blue">&nbsp;</div>
-    </div>-->
   </div>
 </template>
 
