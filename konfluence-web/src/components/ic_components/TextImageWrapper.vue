@@ -6,7 +6,7 @@
         :class="imageAlign"
       >
         <div class="column text-padding">
-          <h1>{{ title }}</h1>
+          <h1 class="title">{{ title }}</h1>
           <p>{{ text }}</p>
         </div>
 

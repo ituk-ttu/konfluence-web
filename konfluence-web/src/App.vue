@@ -3,6 +3,7 @@
     <Background />
     <Launch />
     <page-content />
+    <j-query-background />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Background from './components/background/Background'
 import PageContent from './Content'
 import Launch from './components/Launch'
+import jQueryBackground from './components/background/jQueryBackground'
 
 export default {
   name: 'App',
   components: {
     Launch,
     Background,
-    PageContent
+    PageContent,
+    jQueryBackground
   }
 }
 </script>
