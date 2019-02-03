@@ -1,4 +1,6 @@
 # Konfluence
+![travis build](https://travis-ci.com/kasparkivistik/konfluence-web.svg?token=gXvFDxJzVmgcNC85f89v&branch=develop)
+
 
 ## Sublayers
 * Home
