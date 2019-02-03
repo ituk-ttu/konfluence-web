@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <Background />
-    <Launch />
+    <background />
+    <nav-bar />
+    <launch />
     <page-content />
   </div>
 </template>
@@ -10,13 +11,15 @@
 import Background from './components/background/Background'
 import PageContent from './Content'
 import Launch from './components/Launch'
+import NavBar from './components/ic_components/NavBar/Navbar'
 
 export default {
   name: 'App',
   components: {
     Launch,
     Background,
-    PageContent
+    PageContent,
+    NavBar,
   }
 }
 </script>

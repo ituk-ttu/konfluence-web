@@ -4,43 +4,50 @@
     class="container"
   >
     <text-image-wrapper
+      id="about"
+      title="About"
+      text="TBA"
       image-align="left"
-      title="Mine vaata sinna"
       image-path="http://craftagency.co.uk/sites/default/files/CraftBlog_Leeds_AllDayHey_Conference_2.jpg"
-      text="Pikutav mees."
     />
 
     <text-image-wrapper
+      id="speakers"
+      title="Speakers"
+      text="TBA"
       image-align="right"
       image-path="https://2017.front-trends.com/static/img/conference.jpg"
-      text="Lorem ipsum dolor sit amet, vim umpit duo, an nec nemore officiis iudicabit. Id nisl altera meliore ius, est in solum detraxit accusamus. Te dolorem philosophia eum, his appareat incorrupte dissentiet te."
     />
 
     <wrapper
+      id="venue"
       title="Venue"
-      text="Lorem ipsum dolor sit amet, vim umpit duo, an nec nemore officiis iudicabit. Id nisl altera meliore ius, est in solum detraxit accusamus. Te dolorem philosophia eum, his appareat incorrupte dissentiet te."
+      text="TBA"
     />
 
     <wrapper
+      id="workshops"
       title="Workshops"
-      text="Lorem ipsum dolor sit amet, vim umpit duo, an nec nemore officiis iudicabit. Id nisl altera meliore ius, est in solum detraxit accusamus. Te dolorem philosophia eum, his appareat incorrupte dissentiet te."
+      text="TBA"
     />
 
     <wrapper
+      id="sponsors"
       title="Sponsors"
-      text="Lorem ipsum dolor sit amet, vim umpit duo, an nec nemore officiis iudicabit. Id nisl altera meliore ius, est in solum detraxit accusamus. Te dolorem philosophia eum, his appareat incorrupte dissentiet te."
+      text="TBA"
     />
 
     <wrapper
+      id="organizers"
       title="Organizers"
-      text="Lorem ipsum dolor sit amet, vim umpit duo, an nec nemore officiis iudicabit. Id nisl altera meliore ius, est in solum detraxit accusamus. Te dolorem philosophia eum, his appareat incorrupte dissentiet te."
+      text="TBA"
     />
   </div>
 </template>
 
 <script>
-import Wrapper from './components/ic_components/Wrapper'
-import TextImageWrapper from './components/ic_components/TextImageWrapper'
+import Wrapper from './components/ic_components/Card/Wrapper'
+import TextImageWrapper from './components/ic_components/Card/TextImageWrapper'
 
 export default {
   name: 'Content',
