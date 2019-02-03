@@ -4,6 +4,7 @@ import App from './App.vue'
 Vue.config.productionTip = false;
 
 const VueScrollTo = require('vue-scrollto');
+window.$ = window.jQuery = require('jquery')
 Vue.use(VueScrollTo, {
   container: "body",
   duration: 2000,
