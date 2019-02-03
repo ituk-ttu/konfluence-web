@@ -4,6 +4,7 @@
     <nav-bar />
     <launch />
     <page-content />
+    <page-footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import PageContent from './Content'
 import Launch from './components/Launch'
 import jQueryBackground from './components/background/jQueryBackground'
 import NavBar from './components/ic_components/NavBar/Navbar'
+import PageFooter from './components/PageFooter'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Launch,
     NavBar,
     PageContent,
-    jQueryBackground
+    jQueryBackground,
+    PageFooter
   }
 }
 </script>

@@ -6,7 +6,7 @@ Vue.config.productionTip = false;
 var VueScrollTo = require('vue-scrollto');
 Vue.use(VueScrollTo, {
   container: "body",
-  duration: 500,
+  duration: 2000,
   easing: "ease",
   offset: -100,
   force: true,
