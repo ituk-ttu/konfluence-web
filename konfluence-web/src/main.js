@@ -6,7 +6,6 @@ import 'expose-loader?$!expose-loader?jQuery!jquery'
 Vue.config.productionTip = false;
 
 const VueScrollTo = require('vue-scrollto');
-window.$ = window.jQuery = require('jquery')
 Vue.use(VueScrollTo, {
   container: "body",
   duration: 2000,
@@ -20,6 +19,12 @@ Vue.use(VueScrollTo, {
   x: false,
   y: true
 });
+
+Vue.use({
+  install: function(Vue, options){
+    Vue.prototype.$jQuery = require('jquery'); // you'll have this.$jQuery anywhere in your vue project
+  }
+})
 
 new Vue({
   render: h => h(App),
