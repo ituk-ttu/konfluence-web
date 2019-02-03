@@ -4,13 +4,14 @@
     <nav-bar />
     <launch />
     <page-content />
+    <j-query-background />
   </div>
 </template>
 
 <script>
-import Background from './components/background/Background'
 import PageContent from './Content'
 import Launch from './components/Launch'
+import jQueryBackground from './components/background/jQueryBackground'
 import NavBar from './components/ic_components/NavBar/Navbar'
 
 export default {
@@ -18,8 +19,9 @@ export default {
   components: {
     Launch,
     Background,
-    PageContent,
     NavBar,
+    PageContent,
+    jQueryBackground
   }
 }
 </script>
