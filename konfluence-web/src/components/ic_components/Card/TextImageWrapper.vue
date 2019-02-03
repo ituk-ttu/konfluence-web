@@ -1,21 +1,23 @@
 <template>
   <wrapper>
-    <template slot="content">
-      <div
-        class="columns"
-        :class="imageAlign"
-      >
-        <div class="column text-padding">
-          <h1 class="title">{{ title }}</h1>
-          <p>{{ text }}</p>
-        </div>
 
-        <img
-          :src="imagePath"
-          class="image-align column is-8"
-        >
-      </div>
-    </template>
+    <figure class="image is-square">
+      <img :src="imagePath">
+    </figure>
+      <template slot="content">
+        <div
+          :class="imageAlign"
+          class="cardbox"
+          >
+
+          <div>
+            <h1 class="title">{{ title }}</h1>
+            <p>{{ text }}</p>
+          </div>
+
+            <img :src="imagePath">
+        </div>
+      </template>
   </wrapper>
 </template>
 
@@ -47,7 +49,11 @@ export default {
     height: 100%;
   }
 
-  .text-padding {
+  .cardbox {
+    display: flex;
+  }
+
+  .text {
     padding: 2rem;
   }
 
@@ -57,9 +63,5 @@ export default {
 
   .right {
     flex-direction: row;
-  }
-
-  .image-align {
-    justify-content: end;
   }
 </style>

@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import PageContent from './Content'
+import PageContent from './components/Content'
 import Launch from './components/Launch'
 import jQueryBackground from './components/background/jQueryBackground'
 import NavBar from './components/ic_components/NavBar/Navbar'
@@ -35,6 +35,11 @@ export default {
     text-align: center;
     color: #2c3e50;
     background-color: #f7f7f7;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
   }
 
   h3 {

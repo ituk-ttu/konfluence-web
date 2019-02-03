@@ -58,33 +58,33 @@ export default {
     height: 400px;
   }
 
-  /*white*/
+  /*red*/
   .color1 {
-    background-color: #ededed;
+    background-color: #fc5c65;
   }
 
   /*blue*/
   .color2 {
-    background-color: #5799a9;
+    background-color: #45aaf2;
   }
 
-  /*pink*/
+  /*yellow*/
   .color3 {
-    background-color: #e86d65;
+    background-color: #fed330;
   }
 
   /*orange*/
   .color4 {
-    background-color: #e59e70;
+    background-color: #fd9644;
   }
 
   /*purple*/
   .color5 {
-    background-color: #8c5e7a;
+    background-color: #a55eea;
   }
 
   /*green*/
   .color6 {
-    background-color: #1d7f59;
+    background-color: #26de81;
   }
 </style>
