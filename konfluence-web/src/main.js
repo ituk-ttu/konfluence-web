@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false;
 
-var VueScrollTo = require('vue-scrollto');
+const VueScrollTo = require('vue-scrollto');
 Vue.use(VueScrollTo, {
   container: "body",
   duration: 2000,
