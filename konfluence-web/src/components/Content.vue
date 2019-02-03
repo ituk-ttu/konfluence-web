@@ -46,8 +46,8 @@
 </template>
 
 <script>
-import Wrapper from './components/ic_components/Card/Wrapper'
-import TextImageWrapper from './components/ic_components/Card/TextImageWrapper'
+import Wrapper from './ic_components/Card/Wrapper'
+import TextImageWrapper from './ic_components/Card/TextImageWrapper'
 
 export default {
   name: 'Content',
@@ -76,7 +76,7 @@ export default {
 </style>
 
 <style lang="scss">
-  @import "~bulma/css/bulma.css";
+  @import "../../node_modules/bulma/css/bulma.css";
   h1 {
     margin: 0;
     font-size: 2rem;
