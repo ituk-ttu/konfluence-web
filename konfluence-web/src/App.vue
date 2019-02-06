@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <j-query-background />
-    <nav-bar />
+    <div style="position: relative">
+      <j-query-background />
+    </div>
+    <nav-bar class="nav-bar" />
     <launch />
     <page-content />
-    <page-footer />
   </div>
 </template>
 
@@ -35,29 +36,15 @@ export default {
     text-align: center;
     color: #2c3e50;
     background-color: #f7f7f7;
+    overflow-x: hidden;
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  h3 {
-    margin: 40px 0 0;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: #42b983;
+  @media (max-width: 900px) {
+    .nav-bar {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
   }
 </style>
 
