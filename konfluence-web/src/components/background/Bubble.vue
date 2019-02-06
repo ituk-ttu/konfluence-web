@@ -20,7 +20,6 @@ export default {
     },
     getRandomSize: function () {
       let sizeNumber = this.getRandomInteger(1, 4);
-      console.log('size' + sizeNumber);
       return 'size' + sizeNumber;
     },
     getRandomColor: function () {
