@@ -2,7 +2,7 @@
   <div>
     <section class="hero is-fullheight is-white">
       <div class="hero-body">
-        <div class="container">
+        <div class="container" id="title-and-buttons-container">
           <div class="columns">
             <div class="column">
               <span
@@ -15,7 +15,7 @@
                 </sup>
               </span>
               <h2 class="subtitle">
-                First of it's kind student-organized front-end development conference
+                First of its kind student-organized front-end development conference
               </h2>
             </div>
           </div>
@@ -81,6 +81,10 @@ export default {
 
   #yearnumber {
     color: #3498db;
+  }
+
+  #title-and-buttons-container {
+    z-index: 30;
   }
 
   sup {

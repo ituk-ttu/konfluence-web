@@ -2,7 +2,7 @@
   <div 
     class="bubble"
     v-bind:class="[getRandomSize(), getRandomColor()]"
-    v-bind:style="{ top: top + 'px', left: left + 'px' }"
+    v-bind:style="{ top: this.top + 'px', left: this.left + 'px' }"
   >
   </div>
 </template>
@@ -12,14 +12,16 @@ export default {
   name: 'Bubble',
   props: {
     top: Number,
-    left: Number
+    left: Number,
+    maxSize: Number
   },
   methods: {
     getRandomInteger: function (min, max) {
       return Math.floor(Math.random() * (max - min + 1) ) + min;
     },
     getRandomSize: function () {
-      let sizeNumber = this.getRandomInteger(1, 4);
+      let maxSize = this.maxSize == null ? 4 : this.maxSize;
+      let sizeNumber = this.getRandomInteger(1, maxSize);
       return 'size' + sizeNumber;
     },
     getRandomColor: function () {
