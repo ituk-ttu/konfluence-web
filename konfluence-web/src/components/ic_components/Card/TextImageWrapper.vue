@@ -10,7 +10,7 @@
           class="cardbox"
           >
 
-          <div>
+          <div class="text-wrapper">
             <h1 class="title">{{ title }}</h1>
             <p>{{ text }}</p>
           </div>
@@ -51,6 +51,11 @@ export default {
 
   .cardbox {
     display: flex;
+  }
+
+  .text-wrapper {
+    min-width: 35rem;
+    padding: 2rem;
   }
 
   .text {
