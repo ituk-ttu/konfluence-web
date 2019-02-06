@@ -2,23 +2,35 @@
   <div id="wrapper">
     <div id="parallax-lvl-0">
       <Bubble
-          v-for="n in 20"
+          v-for="n in 10"
           v-bind:top="getRandomTop()"
-          v-bind:left="getRandomLeft()"></Bubble>
+          v-bind:left="getRandomLeft()"
+      />
+    </div>
+
+    <div id="parallax-lvl-1">
+      <Bubble
+              v-for="n in 7"
+              v-bind:top="getRandomTop()"
+              v-bind:left="getRandomLeft()"
+      />
     </div>
 
     <div id="parallax-lvl-2">
       <Bubble
-          v-for="n in 5"
+          v-for="n in 4"
           v-bind:top="getRandomTop()"
-          v-bind:left="getRandomLeft()"></Bubble>
+          v-bind:left="getRandomLeft()"
+      />
     </div>
 
     <div id="parallax-lvl-3">
       <Bubble
-          v-for="n in 7"
+          v-for="n in 3"
           v-bind:top="getRandomTop()"
-          v-bind:left="getRandomLeft()"></Bubble>
+          v-bind:left="getRandomLeft()"
+          v-bind:max-size="1"
+      />
     </div>
   </div>
 </template>
@@ -69,14 +81,14 @@ function parallaxScroll() {
   }
 
   #parallax-lvl-1 {
-    z-index: -1;
+    z-index: 1;
   }
 
   #parallax-lvl-2 {
-    z-index: -2;
+    z-index: 5;
   }
 
   #parallax-lvl-3 {
-    z-index: 5;
+    z-index: 15;
   }
 </style>

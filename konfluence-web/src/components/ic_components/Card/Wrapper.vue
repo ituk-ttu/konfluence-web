@@ -34,6 +34,7 @@ export default {
       margin: 5rem 0;
       text-align: justify;
       z-index: 10;
+      position: relative;
       -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
       -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
       box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
