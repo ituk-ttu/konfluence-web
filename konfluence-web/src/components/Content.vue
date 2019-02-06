@@ -14,7 +14,7 @@
     <text-image-wrapper
       id="speakers"
       title="Speakers"
-      text="TBA"
+      text="TBAAAAAAAAAAAAAAAAAAAAAAAAAATBAAAAAAA AAAAAAAAAAAAAAAAAAATBAAAAAAAAAAAAAAAAAAAAAAAAAA"
       image-align="right"
       image-path="https://2017.front-trends.com/static/img/conference.jpg"
     />

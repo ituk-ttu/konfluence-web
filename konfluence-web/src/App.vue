@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div style="position: relative">
+    <div style="position: relative;">
       <j-query-background />
     </div>
     <nav-bar class="nav-bar" />
