@@ -13,6 +13,7 @@ node_js:
 branches:
   only:
     - develop
+    - master
 install:
   - cd konfluence-web
   - npm i
@@ -20,3 +21,4 @@ script:
   - npm run build
 after_success:
   - test $TRAVIS_BRANCH = "develop" && rsync -chavzP --rsh="sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no -l $SSH_USERNAME" dist/* $SSH_USERNAME@konfluence.xyz:/var/www/html/staging
+  - test $TRAVIS_BRANCH = "master" && rsync -chavzP --rsh="sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no -l $SSH_USERNAME" dist/* $SSH_USERNAME@konfluence.xyz:/var/www/html/konfluence.xyz
