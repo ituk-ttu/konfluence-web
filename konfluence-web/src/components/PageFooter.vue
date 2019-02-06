@@ -1,7 +1,7 @@
 <template>
   <div class="footer columns">
     <div class="column is-8">
-      <p>This webpage is the property of RaimondMaeKaspar Creations incorporated limited {{getYear()}}</p>
+      <p>This webpage is the property of RaimondMaeKaspar Creations incorporated limited {{ getYear() }}</p>
     </div>
   </div>
 </template>

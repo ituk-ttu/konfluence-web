@@ -1,15 +1,24 @@
 <template>
   <div id="wrapper">
     <div id="parallax-lvl-0">
-      <Bubble v-for="n in 20" v-bind:top="getRandomTop()" v-bind:left="getRandomLeft()"></Bubble>
+      <Bubble
+          v-for="n in 20"
+          v-bind:top="getRandomTop()"
+          v-bind:left="getRandomLeft()"></Bubble>
     </div>
 
     <div id="parallax-lvl-2">
-      <Bubble v-for="n in 5" v-bind:top="getRandomTop()" v-bind:left="getRandomLeft()"></Bubble>
+      <Bubble
+          v-for="n in 5"
+          v-bind:top="getRandomTop()"
+          v-bind:left="getRandomLeft()"></Bubble>
     </div>
 
     <div id="parallax-lvl-3">
-      <Bubble v-for="n in 7" v-bind:top="getRandomTop()" v-bind:left="getRandomLeft()"></Bubble>
+      <Bubble
+          v-for="n in 7"
+          v-bind:top="getRandomTop()"
+          v-bind:left="getRandomLeft()"></Bubble>
     </div>
   </div>
 </template>
@@ -17,9 +26,12 @@
 <script>
 import Bubble from "./Bubble";
 export default {
-  name: "jQueryBackground",
+  name: "JQueryBackground",
   components: {Bubble},
-  methods : {
+  mounted: function () {
+    this.$forceUpdate()
+  },
+  methods: {
     getRandomInteger: function (min, max) {
       return Math.floor(Math.random() * (max - min + 1) ) + min;
     },
@@ -30,21 +42,18 @@ export default {
       let scrollHeight = Math.max(document.getElementById('app').scrollHeight);
       return this.getRandomInteger(0, scrollHeight)
     }
-  },
-  mounted: function () {
-    this.$forceUpdate()
   }
 }
 
 import 'expose-loader?$!expose-loader?jQuery!jquery'
 
 
-$(window).bind('scroll', function (e) {
+$(window).bind('scroll', function () {
   parallaxScroll();
 });
 
 function parallaxScroll() {
-  var scrolled = $(window).scrollTop();
+  const scrolled = $(window).scrollTop();
   $('#parallax-lvl-0').css('top', (0 - (scrolled * .25)) + 'px');
   $('#parallax-lvl-1').css('top', (0 - (scrolled * .5)) + 'px');
   $('#parallax-lvl-2').css('top', (0 - (scrolled * .75)) + 'px');

@@ -21,13 +21,16 @@
           </div>
           <div class="level button-row">
             <div class="level-left">
-              <a class="button is-primary is-outlined is-large is-rounded" disabled>
+              <a class="button is-primary is-outlined is-large is-rounded"
+                 disabled>
                 TICKETS
               </a>
-              <a class="button is-success is-outlined is-large is-rounded" disabled>
+              <a class="button is-success is-outlined is-large is-rounded"
+                 disabled>
                 AGENDA
               </a>
-              <a class="button is-info is-outlined is-large is-rounded" href="https://www.facebook.com/ituk.ttu/?ref=br_rs">
+              <a class="button is-info is-outlined is-large is-rounded"
+                 href="https://www.facebook.com/ituk.ttu/?ref=br_rs">
                 CONTACT
               </a>
             </div>

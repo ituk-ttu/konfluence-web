@@ -13,7 +13,7 @@
 <script>
 import PageContent from './components/Content'
 import Launch from './components/Launch'
-import jQueryBackground from './components/background/jQueryBackground'
+import JQueryBackground from './components/background/JQueryBackground'
 import NavBar from './components/ic_components/NavBar/Navbar'
 import PageFooter from './components/PageFooter'
 
@@ -23,7 +23,7 @@ export default {
     Launch,
     NavBar,
     PageContent,
-    jQueryBackground,
+    JQueryBackground,
     PageFooter
   }
 }

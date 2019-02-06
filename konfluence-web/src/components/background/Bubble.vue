@@ -2,7 +2,7 @@
   <div 
     class="bubble"
     v-bind:class="[getRandomSize(), getRandomColor()]"
-    v-bind:style="{ top: this.top + 'px', left: this.left + 'px' }"
+    v-bind:style="{ top: top + 'px', left: left + 'px' }"
   >
   </div>
 </template>

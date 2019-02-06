@@ -1,7 +1,7 @@
 <template>
   <div
-      class="navButton"
       v-scroll-to="scrollTo"
+      class="navButton"
   >
     <p> {{ name }} </p>
     <span class="dot" />
