@@ -6,6 +6,7 @@
     <nav-bar class="nav-bar" />
     <launch />
     <page-content />
+    <page-footer />
   </div>
 </template>
 

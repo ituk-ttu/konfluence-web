@@ -25,7 +25,7 @@ export default {
 
   .footer {
     height: 10rem;
-    background-color: #e0e0e0;
+    background-color: #d0d0d0;
     text-align: left;
     font-size: 6rem;
     padding: 0 12rem;

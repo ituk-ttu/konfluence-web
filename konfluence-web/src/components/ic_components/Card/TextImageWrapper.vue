@@ -1,9 +1,5 @@
 <template>
   <wrapper>
-
-    <figure class="image is-square">
-      <img :src="imagePath">
-    </figure>
       <template slot="content">
         <div
           :class="imageAlign"
@@ -15,7 +11,9 @@
             <p>{{ text }}</p>
           </div>
 
+          <div class="image-wrapper">
             <img :src="imagePath">
+          </div>
         </div>
       </template>
   </wrapper>
@@ -45,16 +43,17 @@ export default {
 </script>
 
 <style scoped>
+
   img {
     height: 100%;
   }
-
+  
   .cardbox {
     display: flex;
   }
 
   .text-wrapper {
-    min-width: 35rem;
+    min-width: 45rem;
     padding: 2rem;
   }
 
