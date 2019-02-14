@@ -22,13 +22,13 @@
           <div class="level button-row">
             <div class="level-left">
               <a class="button is-primary is-outlined is-large is-rounded"
-                 disabled>
+                 href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
+              >
                 TICKETS
               </a>
-              <a class="button is-success is-outlined is-large is-rounded"
-                 disabled>
+              <div class="button is-success is-outlined is-large is-rounded">
                 AGENDA
-              </a>
+              </div>
               <a class="button is-info is-outlined is-large is-rounded"
                  href="https://www.facebook.com/ituk.ttu/?ref=br_rs">
                 CONTACT
@@ -46,7 +46,12 @@
 
 <script>
 export default {
-  name: "Launch"
+  name: "Launch",
+  mounted() {
+    const ticketScript = document.createElement('script');
+    ticketScript.setAttribute('src', 'https://fienta.com/embed.js');
+    document.head.appendChild(ticketScript);
+  }
 }
 </script>
 

@@ -47,7 +47,7 @@ export default {
   img {
     height: 100%;
   }
-  
+
   .cardbox {
     display: flex;
   }

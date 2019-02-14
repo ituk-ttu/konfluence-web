@@ -39,6 +39,10 @@
       text="TalTech money fund"
     />
 
+    <speakers>
+      id="speakers"
+    </speakers>
+
     <wrapper
       id="organizers"
       title="Organizers"
@@ -50,10 +54,12 @@
 <script>
 import Wrapper from './ic_components/Card/Wrapper'
 import TextImageWrapper from './ic_components/Card/TextImageWrapper'
+import Speakers from './ic_components/Speakers/Speakers.vue'
 
 export default {
   name: 'Content',
   components: {
+    Speakers,
     Wrapper,
     TextImageWrapper
   }
