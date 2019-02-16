@@ -73,4 +73,14 @@ export default {
     z-index: 10;
     position: relative;
   }
+  
+  @media (max-width: 1000px) {
+    .speakers {
+      margin: 0;
+    }
+
+    .speaker-card {
+      margin: 1rem 0;
+    }
+  }
 </style>

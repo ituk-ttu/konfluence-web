@@ -51,7 +51,6 @@ export default {
   .cardbox {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
   }
 
   .text-wrapper {
@@ -63,24 +62,18 @@ export default {
     list-style-type: square;
   }
 
-  .text {
-    padding: 2rem;
-  }
-
-  .left {
-    flex-direction: row-reverse;
-  }
-
-  .right {
-    flex-direction: row;
-  }
-
-  .card-height {
-    height: 10rem;
-  }
-
   img {
     height: 100%;
     max-width: inherit;
+  }
+
+  @media (max-width: 1000px) {
+    .cardbox {
+      flex-wrap: wrap-reverse;
+    }
+
+    img {
+      max-height: 20rem;
+    }
   }
 </style>
