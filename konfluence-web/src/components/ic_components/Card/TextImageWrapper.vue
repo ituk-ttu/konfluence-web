@@ -19,7 +19,7 @@
           <p v-if="secondary">{{ secondary }}</p>
         </div>
 
-        <div class="image-wrapper">
+        <div>
           <img :src="imagePath">
         </div>
       </div>
@@ -56,6 +56,7 @@
 
   .cardbox {
     display: flex;
+    justify-content: space-between;
   }
 
   .text-wrapper {
@@ -82,5 +83,10 @@
 
   .card-height {
     height: 10rem;
+  }
+
+  img {
+    height: 100%;
+    max-width: inherit;
   }
 </style>
