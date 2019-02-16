@@ -39,9 +39,9 @@
       text="TalTech money fund"
     />
 
-    <speakers>
+    <!--<speakers>
       id="speakers"
-    </speakers>
+    </speakers>-->
 
     <wrapper
       id="organizers"
