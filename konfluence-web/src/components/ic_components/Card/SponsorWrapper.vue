@@ -1,6 +1,9 @@
 <template>
   <wrapper class="sponsors-wrapper">
     <template slot="content">
+      <div class="title">
+        <h1>{{ title }}</h1>
+      </div>
       <div class="image-wrapper">
         <div class="image-row"
              v-for="imagePath in imagePaths">
@@ -28,9 +31,9 @@ export default {
 </script>
 
 <style scoped>
-  .text-wrapper {
-    min-width: 15rem;
-    padding: 2rem;
+  .title {
+    text-align: center;
+    font-size: 3rem;
   }
 
   .image-wrapper {
@@ -59,5 +62,6 @@ export default {
 
   .sponsors-wrapper {
     border-radius: 0;
+    background: transparent;
   }
 </style>

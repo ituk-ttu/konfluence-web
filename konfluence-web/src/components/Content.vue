@@ -40,7 +40,7 @@
     <sponsor-wrapper
       id="sponsors"
       title="Sponsors"
-      :image-paths="['https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png']"
+      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png']"
     />
 
   </div>
