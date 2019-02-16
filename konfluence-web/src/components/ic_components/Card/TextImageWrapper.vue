@@ -16,7 +16,7 @@
             </ul>
           </div>
 
-          <p v-if="secondary">{{ secondary}}</p>
+          <p v-if="secondary">{{ secondary }}</p>
         </div>
 
         <div class="image-wrapper">
@@ -56,6 +56,7 @@
 
   img {
     height: 100%;
+    width: max-content;
   }
 
   .cardbox {

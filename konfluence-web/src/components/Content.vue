@@ -11,7 +11,7 @@
        'How can be development process be safe and effective?',
        'What are the technologies used by Estonian and international companies and what are the technologies of the future?',
        'What does the design process of user interfaces look like?']"
-      secondary="The name Konfluence is a word play on the word conference in Estonian (konverents)  and the Atlassian Confluence, which is an exemplary software in the fields of high quality product design in both front and back end technologies."
+      secondary="The name Konfluence is a word play on the word conference in Estonian (konverents) and the Atlassian Confluence, which is an exemplary software in the fields of high quality product design in both front and back end technologies."
       image-align="left"
       image-path="http://craftagency.co.uk/sites/default/files/CraftBlog_Leeds_AllDayHey_Conference_2.jpg"
     />
