@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <div style="position: relative;">
-      <j-query-background />
-    </div>
+    <j-query-background />
     <nav-bar class="nav-bar" />
     <launch />
     <page-content />
@@ -37,7 +35,6 @@ export default {
     text-align: center;
     color: #2c3e50;
     background-color: #f7f7f7;
-    overflow-x: hidden;
   }
 
   @media (max-width: 900px) {
