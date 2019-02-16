@@ -31,6 +31,11 @@
       title="Workshops"
       text="TBA"
     />
+    <wrapper
+        id="organizers"
+        title="Organizers"
+        text="ITÜK"
+    />
 
     <sponsor-wrapper
       id="sponsors"
@@ -38,11 +43,6 @@
       :image-paths="['https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png']"
     />
 
-    <wrapper
-      id="organizers"
-      title="Organizers"
-      text="ITÜK"
-    />
   </div>
 </template>
 

@@ -1,13 +1,10 @@
 <template>
-  <wrapper>
+  <wrapper class="sponsors-wrapper">
     <template slot="content">
-      <div class="text-wrapper">
-        <h1 class="title">{{ title }}</h1>
-      </div>
       <div class="image-wrapper">
         <div class="image-row"
              v-for="imagePath in imagePaths">
-          <img :src="imagePath"
+          <img class="image" :src="imagePath"
               alt="sponsor" />
         </div>
       </div>
@@ -50,5 +47,17 @@ export default {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .image {
+    transition: transform .4s;
+  }
+
+  .image:hover {
+    transform: scale(1.05);
+  }
+
+  .sponsors-wrapper {
+    border-radius: 0;
   }
 </style>
