@@ -57,7 +57,7 @@
       },
       getRandomTop: function () {
         let scrollHeight = Math.max(document.getElementById('app').scrollHeight);
-        return this.getRandomInteger(0, scrollHeight)
+        return this.getRandomInteger(0, scrollHeight + 400)
       },
       isMobile: function () {
         return screen.width < 900;
