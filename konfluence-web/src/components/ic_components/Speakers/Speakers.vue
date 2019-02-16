@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="z-index">
     <h1 class="title">Speakers</h1>
     <div class="speakers">
       <template v-for="speaker in speakers">
@@ -51,8 +51,6 @@
     flex-wrap: wrap;
     margin: 0 4rem;
     justify-content: center;
-    z-index: 10;
-    position: relative;
   }
 
   .speaker-card{
@@ -62,5 +60,10 @@
 
   .content {
     text-align: left;
+  }
+
+  .z-index {
+    z-index: 10;
+    position: relative;
   }
 </style>
