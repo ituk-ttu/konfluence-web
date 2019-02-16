@@ -51,10 +51,10 @@ export default {
   .cardbox {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
   }
 
   .text-wrapper {
-    min-width: 45rem;
     padding: 2rem;
   }
 
