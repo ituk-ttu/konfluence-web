@@ -16,7 +16,7 @@
       image-path="https://www.intersolar.de/fileadmin/_processed_/9/9/csm_Conference_5cee960ed0.jpg"
     />
 
-    <!--<speakers id="speakers" />-->
+    <speakers id="speakers" />
 
     <text-image-wrapper
       id="venue"
