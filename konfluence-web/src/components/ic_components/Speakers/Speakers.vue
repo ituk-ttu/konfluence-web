@@ -1,8 +1,8 @@
 <template>
-  <div class="index">
-    <h1 class="titlegit">Speakers</h1>
+  <div>
+    <h1 class="title">Speakers</h1>
     <div class="speakers">
-      <template v-for="(speaker, index) in speakers">
+      <template v-for="speaker in speakers">
         <div class="card speaker-card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -51,6 +51,8 @@
     flex-wrap: wrap;
     margin: 0 4rem;
     justify-content: center;
+    z-index: 10;
+    position: relative;
   }
 
   .speaker-card{
@@ -60,9 +62,5 @@
 
   .content {
     text-align: left;
-  }
-
-  .z-index {
-    z-index: 10;
   }
 </style>
