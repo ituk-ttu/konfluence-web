@@ -10,7 +10,6 @@
           <img :src="imagePath"
               alt="sponsor" />
         </div>
-
       </div>
     </template>
   </wrapper>
