@@ -28,7 +28,7 @@ Vue.use({
 })
 
 Vue.use(VueAnalytics, {
-  id: 'tglt õige on see, masteris muuda ära lic :) UA-134658763-1'
+  id: 'UA-134658763-1'
 })
 
 new Vue({
