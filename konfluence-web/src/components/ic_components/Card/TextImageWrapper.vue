@@ -1,51 +1,62 @@
 <template>
   <wrapper>
-      <template slot="content">
-        <div
+    <template slot="content">
+      <div
           :class="imageAlign"
           class="cardbox"
-          >
+      >
 
-          <div class="text-wrapper">
-            <h1 class="title">{{ title }}</h1>
-            <p>{{ text }}</p>
+        <div class="text-wrapper">
+          <h1 class="title">{{ title }}</h1>
+          <p>{{ text }}</p>
+
+          <div>
+            <ul class="list-wrapper" v-if="list">
+              <li v-for="element in list">{{ element }}</li>
+            </ul>
           </div>
 
-          <div class="image-wrapper">
-            <img :src="imagePath">
-          </div>
+          <p v-if="secondary">{{ secondary }}</p>
         </div>
-      </template>
+
+        <div class="image-wrapper">
+          <img :src="imagePath">
+        </div>
+      </div>
+    </template>
   </wrapper>
 </template>
 
 <script>
-import Wrapper from './Wrapper'
+  import Wrapper from './Wrapper'
 
-export default {
-  name: "WrapperWithImage",
-  components: {
-    Wrapper
-  },
-  props: {
-    title: String,
-    text: String,
-    imagePath: {
-      type: String,
-      required: true
+  export default {
+    name: 'WrapperWithImage',
+    components: {
+      Wrapper
     },
-    imageAlign: {
-      type: String,
-      required: true
+    props: {
+      title: String,
+      text: String,
+      imagePath: {
+        type: String,
+        required: true
+      },
+      imageAlign: {
+        type: String,
+        required: true
+      },
+      list: Array,
+      secondary: String
     }
   }
-}
 </script>
 
 <style scoped>
 
   img {
     height: 100%;
+    width: max-content;
   }
 
   .cardbox {
@@ -55,6 +66,11 @@ export default {
   .text-wrapper {
     min-width: 45rem;
     padding: 2rem;
+  }
+
+  .list-wrapper {
+    margin: 1rem 0 1rem 2rem;
+    list-style-type: square;
   }
 
   .text {

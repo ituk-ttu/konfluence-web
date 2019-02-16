@@ -13,6 +13,7 @@
               </figure>
               <div class="speaker-info">
                 <p class="name">{{ speaker.name }}</p>
+                <p class="company">{{ speaker.company }}</p>
                 <p class="text">{{ speaker.text }}</p>
               </div>
             </div>
@@ -41,6 +42,10 @@
     font-size: 1.5rem;
   }
 
+  .company {
+    font-size: 1.2rem;
+  }
+
   .image {
     border-bottom: #f0f0f0 solid 1px;
   }
@@ -56,7 +61,7 @@
 
   .speaker {
     width: 20rem;
-    height: 25rem;
+    height: 30rem;
     text-align: center;
     background-color: #9e9e9e50;
     -webkit-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.38);
