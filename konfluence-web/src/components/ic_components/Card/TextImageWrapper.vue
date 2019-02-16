@@ -67,6 +67,13 @@ export default {
     max-width: inherit;
   }
 
+  .right {
+    flex-direction: row;
+  }
+  .left {
+    flex-direction: row-reverse;
+  }
+
   @media (max-width: 1000px) {
     .cardbox {
       flex-wrap: wrap-reverse;
