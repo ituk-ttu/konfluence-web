@@ -56,6 +56,8 @@
   .speaker-card{
     max-width: 20rem;
     margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
   }
 
   .content {

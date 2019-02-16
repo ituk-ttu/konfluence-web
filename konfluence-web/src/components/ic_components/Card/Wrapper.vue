@@ -26,7 +26,7 @@ export default {
 <style scoped>
     .wrapper {
       background-color: #FFFFFF;
-      border-radius: 2rem;
+      border-radius: 1.5rem;
       overflow: hidden;
       padding: 0;
       margin: 10rem 0;
