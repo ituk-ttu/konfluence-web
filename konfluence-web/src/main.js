@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import 'expose-loader?$!expose-loader?jQuery!jquery'
+import VueAnalytics from 'vue-analytics'
 
 
 Vue.config.productionTip = false;
@@ -24,6 +25,10 @@ Vue.use({
   install: function(Vue, options){
     Vue.prototype.$jQuery = require('jquery'); // you'll have this.$jQuery anywhere in your vue project
   }
+})
+
+Vue.use(VueAnalytics, {
+  id: 'tglt õige on see, masteris muuda ära lic :) UA-134658763-1'
 })
 
 new Vue({
