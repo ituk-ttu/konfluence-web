@@ -17,14 +17,6 @@
     />
 
     <text-image-wrapper
-      id="speakers"
-      title="Speakers"
-      text="TBA"
-      image-align="right"
-      image-path="https://2017.front-trends.com/static/img/conference.jpg"
-    />
-
-    <text-image-wrapper
       id="venue"
       title="Venue"
       text="TalTech Mektory Innovatsiooni- ja ettevõtluskeskus, Raja 4c Tallinn"
@@ -38,10 +30,10 @@
       text="TBA"
     />
 
-    <wrapper
+    <sponsor-wrapper
       id="sponsors"
       title="Sponsors"
-      text="TalTech money fund"
+      :image-paths="['https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png']"
     />
 
     <speakers>
@@ -60,13 +52,15 @@
 import Wrapper from './ic_components/Card/Wrapper'
 import TextImageWrapper from './ic_components/Card/TextImageWrapper'
 import Speakers from './ic_components/Speakers/Speakers.vue'
+import SponsorWrapper from './ic_components/Card/SponsorWrapper'
 
 export default {
   name: 'Content',
   components: {
     Speakers,
     Wrapper,
-    TextImageWrapper
+    TextImageWrapper,
+    SponsorWrapper
   }
 }
 </script>
