@@ -1,57 +1,35 @@
 export const speakers = [
+
   {
-    image: 'https://www.guidedogsvictoria.com.au/wp-content/themes/default/static/img/puppy.png',
+    image: 'https://scontent.fbud2-1.fna.fbcdn.net/v/t31.0-8/24059750_1614230071949820_2202051073901494972_o.jpg?_nc_cat=108&_nc_ht=scontent.fbud2-1.fna&oh=05293b652c1c6768aaa5508c011e6ae7&oe=5CE601BA',
+    name: 'Kaspar Kivistik',
+    company: 'Monese',
+    text: 'Alustasin oma teekonda Levercodeist. Nüüd olen moniisis. Mu arvuti on Apple. Mu lemmik kool on TalTech ja mu lemmik inimene on Emily Joy Krohl. Mis on sinu lemmikud?'
+  },
+  {
+    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
     name: 'Doggity doggy',
     company: 'LHV',
-    text: 'Doggity Doggy on LHV vanemarendaja, kes on viimased seitseteist aastat keskendunud Vue.js arendusele. Doggity leiab, et hea töö tulemuseks on meeskonnatöö ja sitaks head progemise oskused.'
-  },
-  {
-    image: 'https://www.guidedogsvictoria.com.au/wp-content/themes/default/static/img/puppy.png',
-    name: '2',
-    text: 'Täiega taun inimene, aga mai saa mitte mdiagi sinna parata, me oleme kohustatud teda siia esinema kutsuma. Tegelt peaks ettevõtte nime ka sinna panema, see annab hea maitse juurde'
-  },
-  {
-    image: 'https://www.guidedogsvictoria.com.au/wp-content/themes/default/static/img/puppy.png',
-    name: '3',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'https://www.guidedogsvictoria.com.au/wp-content/themes/default/static/img/puppy.png',
-    name: '4',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'src',
-    name: '5',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'src',
-    name: '6',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'src',
-    name: '7',
-    text: 'Päris hea progeja'
-  },  {
-    image: 'src',
-    name: '8',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'src',
-    name: '9',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'src',
-    name: '10',
-    text: 'Päris hea progeja'
-  },
-  {
-    image: 'src',
-    name: '11',
-    text: 'Myfitness instruktor'
+    text: 'I am the best developer that has ever existed'
+  },{
+    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
+    name: 'Doggity doggy',
+    company: 'LHV',
+    text: 'I am the best developer that has ever existed'
+  },{
+    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
+    name: 'Doggity doggy',
+    company: 'LHV',
+    text: 'I am the best developer that has ever existed'
+  },{
+    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
+    name: 'Doggity doggy',
+    company: 'LHV',
+    text: 'I am the best developer that has ever existed'
+  },{
+    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
+    name: 'Doggity doggy',
+    company: 'LHV',
+    text: 'I am the best developer that has ever existed'
   },
 ];

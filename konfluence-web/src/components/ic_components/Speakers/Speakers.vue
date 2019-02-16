@@ -1,79 +1,68 @@
 <template>
-  <div class="speakers">
-
-    <h1 class="title">Speakers</h1>
-
-    <template v-for="i in Math.ceil(speakers.length / 3)">
-      <tr>
-        <template v-for="speaker in speakers.slice(3 * (i - 1), 3 * (i - 1) + 3)">
-          <td>
-            <div class="speaker">
-              <figure class="image is-4by3">
-                <img :src="speaker.image">
-              </figure>
-              <div class="speaker-info">
-                <p class="name">{{ speaker.name }}</p>
-                <p class="company">{{ speaker.company }}</p>
-                <p class="text">{{ speaker.text }}</p>
+  <div class="index">
+    <h1 class="titlegit">Speakers</h1>
+    <div class="speakers">
+      <template v-for="(speaker, index) in speakers">
+        <div class="card speaker-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img :src="speaker.image" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content" style="text-align: left">
+                <p class="title is-4">{{ speaker.name }}</p>
+                <p class="subtitle is-6">{{ speaker.company }}</p>
               </div>
             </div>
-          </td>
-        </template>
-      </tr>
-    </template>
+
+            <div class="content">
+              {{ speaker.text }}
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
   </div>
 </template>
 
 <script>
   import { speakers } from './Speakers';
+  import Wrapper from '../Card/Wrapper'
 
   export default {
     name: "Speakers",
+    components: {
+      Wrapper
+    },
     data() {
       return {
         speakers: speakers
       }
-    }
+    },
   }
 </script>
 
 <style scoped>
-  .name {
-    font-size: 1.5rem;
-  }
-
-  .company {
-    font-size: 1.2rem;
-  }
-
-  .image {
-    border-bottom: #f0f0f0 solid 1px;
-  }
-
-  .title {
-    margin: 3rem;
-  }
-
   .speakers {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 4rem;
+    justify-content: center;
   }
 
-  .speaker {
-    width: 20rem;
-    height: 30rem;
-    text-align: center;
-    background-color: #9e9e9e50;
-    -webkit-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.38);
-    -moz-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.38);
-    box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.38);
+  .speaker-card{
+    max-width: 20rem;
+    margin: 2rem;
   }
 
-  td {
-    padding: 3rem;
+  .content {
+    text-align: left;
   }
 
-  tr {
-    align-self: center;
+  .z-index {
+    z-index: 10;
   }
 </style>

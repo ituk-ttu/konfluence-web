@@ -25,19 +25,14 @@ export default {
 
 <style scoped>
     .wrapper {
-      display: flex;
-      background-color: white;
-      height: 25rem;
-      border-radius: 0.3rem;
+      background-color: #FFFFFF50;
+      border-radius: 2rem;
       overflow: hidden;
       padding: 0;
-      margin: 5rem 0;
+      margin: 10rem 0;
       text-align: justify;
       z-index: 10;
       position: relative;
-      -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
-      -moz-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
-      box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.13);
     }
 
    .text-padding {

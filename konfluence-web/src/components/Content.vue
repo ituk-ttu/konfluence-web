@@ -16,12 +16,14 @@
       image-path="http://craftagency.co.uk/sites/default/files/CraftBlog_Leeds_AllDayHey_Conference_2.jpg"
     />
 
+    <speakers id="speakers" />
+
     <text-image-wrapper
       id="venue"
       title="Venue"
       text="TalTech Mektory Innovatsiooni- ja ettevõtluskeskus, Raja 4c Tallinn"
       image-align="left"
-      image-path="https://i.imgur.com/6o2c1JK.jpg"
+      image-path="https://www.tallinn.ee/gal_pildid/158808.jpg"
     />
 
     <wrapper
@@ -35,10 +37,6 @@
       title="Sponsors"
       :image-paths="['https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png', 'https://i.imgur.com/N8zWrLt.png']"
     />
-
-    <!--<speakers>
-      id="speakers"
-    </speakers>-->
 
     <wrapper
       id="organizers"

@@ -54,11 +54,6 @@
 
 <style scoped>
 
-  img {
-    height: 100%;
-    width: max-content;
-  }
-
   .cardbox {
     display: flex;
   }
@@ -83,5 +78,9 @@
 
   .right {
     flex-direction: row;
+  }
+
+  .card-height {
+    height: 10rem;
   }
 </style>
