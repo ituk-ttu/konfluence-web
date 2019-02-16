@@ -40,4 +40,10 @@ export default {
    .text-padding {
      padding: 2rem;
    }
+
+  @media (max-width: 900px) {
+    .wrapper {
+      margin: 3.5rem 0.8rem 0 0.8rem;
+    }
+  }
 </style>
