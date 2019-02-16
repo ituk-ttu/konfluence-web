@@ -15,7 +15,7 @@
                 </sup>
               </span>
               <h2 class="subtitle">
-                First of its kind student-organized front-end development conference
+                First of its kind student-organized front-end conference
               </h2>
             </div>
           </div>
