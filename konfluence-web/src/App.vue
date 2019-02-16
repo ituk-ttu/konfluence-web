@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <div style="position: absolute;">
-      <j-query-background />
-    </div>
+    <j-query-background />
     <nav-bar class="nav-bar" />
     <launch />
     <page-content />
