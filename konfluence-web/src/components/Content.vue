@@ -32,9 +32,9 @@
       text="TBA"
     />
     <wrapper
-        id="organizers"
-        title="Organizers"
-        text="ITÜK"
+      id="organizers"
+      title="Organizers"
+      text="ITÜK"
     />
 
     <sponsor-wrapper
