@@ -1,3 +1,4 @@
+<!-- eslint-disable -->
 <template>
   <div id="wrapper">
     <div id="parallax-lvl-0">
@@ -10,9 +11,9 @@
 
     <div id="parallax-lvl-1">
       <Bubble
-              v-for="n in 7"
-              v-bind:top="getRandomTop()"
-              v-bind:left="getRandomLeft()"
+          v-for="n in 7"
+          v-bind:top="getRandomTop()"
+          v-bind:left="getRandomLeft()"
       />
     </div>
 
@@ -36,16 +37,17 @@
 </template>
 
 <script>
-import Bubble from "./Bubble";
+import Bubble from './Bubble';
+
 export default {
-  name: "JQueryBackground",
+  name: 'JQueryBackground',
   components: {Bubble},
   mounted: function () {
     this.$forceUpdate()
   },
   methods: {
     getRandomInteger: function (min, max) {
-      return Math.floor(Math.random() * (max - min + 1) ) + min;
+      return Math.floor(Math.random() * (max - min + 1)) + min;
     },
     getRandomLeft: function () {
       return this.getRandomInteger(0, Math.max(document.documentElement.clientWidth))
@@ -54,6 +56,7 @@ export default {
       let scrollHeight = Math.max(document.getElementById('app').scrollHeight);
       return this.getRandomInteger(0, scrollHeight)
     }
+
   }
 }
 
