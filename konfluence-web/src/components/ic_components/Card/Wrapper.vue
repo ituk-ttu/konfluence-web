@@ -2,7 +2,9 @@
   <div class="wrapper">
     <slot name="content">
       <div class="text-padding">
-        <h1 class="title">{{ title }}</h1>
+        <h1 class="title">
+          {{ title }}
+        </h1>
         <p>{{ text }}</p>
       </div>
     </slot>

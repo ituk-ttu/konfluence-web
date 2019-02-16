@@ -2,7 +2,10 @@
   <div>
     <section class="hero is-fullheight is-white">
       <div class="hero-body">
-        <div class="container" id="title-and-buttons-container">
+        <div
+            class="container"
+            id="title-and-buttons-container"
+        >
           <div class="columns">
             <div class="column">
               <span
@@ -21,16 +24,19 @@
           </div>
           <div class="level button-row">
             <div class="level-left">
-              <a class="button is-primary is-outlined is-large is-rounded"
-                 href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
+              <a
+                class="button is-primary is-outlined is-large is-rounded"
+                href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
               >
                 TICKETS
               </a>
               <div class="button is-success is-outlined is-large is-rounded">
                 AGENDA
               </div>
-              <a class="button is-info is-outlined is-large is-rounded"
-                 href="https://www.facebook.com/ituk.ttu/?ref=br_rs">
+              <a
+                class="button is-info is-outlined is-large is-rounded"
+                href="https://www.facebook.com/ituk.ttu/?ref=br_rs"
+              >
                 CONTACT
               </a>
             </div>

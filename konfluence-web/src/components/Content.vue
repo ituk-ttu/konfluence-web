@@ -13,7 +13,7 @@
        'What does the design process of user interfaces look like?']"
       secondary="The name Konfluence is a word play on the word conference in Estonian (konverents) and the Atlassian Confluence, which is an exemplary software in the fields of high quality product design in both front and back end technologies."
       image-align="left"
-      image-path="http://craftagency.co.uk/sites/default/files/CraftBlog_Leeds_AllDayHey_Conference_2.jpg"
+      image-path="https://www.intersolar.de/fileadmin/_processed_/9/9/csm_Conference_5cee960ed0.jpg"
     />
 
     <speakers id="speakers" />
@@ -22,7 +22,7 @@
       id="venue"
       title="Venue"
       text="TalTech Mektory Innovatsiooni- ja ettevõtluskeskus, Raja 4c Tallinn"
-      image-align="left"
+      image-align="right"
       image-path="https://www.tallinn.ee/gal_pildid/158808.jpg"
     />
 

@@ -1,19 +1,28 @@
 <template>
   <div class="z-index">
-    <h1 class="title">Speakers</h1>
+    <h1 class="title">
+      Speakers
+    </h1>
     <div class="speakers">
       <template v-for="speaker in speakers">
         <div class="card speaker-card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img :src="speaker.image" alt="Placeholder image">
+              <img
+                :src="speaker.image"
+                alt="Placeholder image"
+              >
             </figure>
           </div>
           <div class="card-content">
             <div class="media">
-              <div class="media-content" style="text-align: left">
-                <p class="title is-4">{{ speaker.name }}</p>
-                <p class="subtitle is-6">{{ speaker.company }}</p>
+              <div class="media-content">
+                <p class="title is-4">
+                  {{ speaker.name }}
+                </p>
+                <p class="subtitle is-6">
+                  {{ speaker.company }}
+                </p>
               </div>
             </div>
 
@@ -28,20 +37,16 @@
 </template>
 
 <script>
-  import { speakers } from './Speakers';
-  import Wrapper from '../Card/Wrapper'
+import { speakers } from './Speakers';
 
-  export default {
-    name: "Speakers",
-    components: {
-      Wrapper
-    },
-    data() {
-      return {
-        speakers: speakers
-      }
-    },
-  }
+export default {
+  name: "Speakers",
+  data() {
+    return {
+      speakers: speakers
+    }
+  },
+}
 </script>
 
 <style scoped>
@@ -53,7 +58,7 @@
     justify-content: center;
   }
 
-  .speaker-card{
+  .speaker-card {
     max-width: 20rem;
     margin: 2rem;
     border-radius: 1.5rem;
