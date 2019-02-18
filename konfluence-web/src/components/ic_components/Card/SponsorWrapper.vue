@@ -31,6 +31,10 @@ export default {
 </script>
 
 <style scoped>
+  h1 {
+    font-size: 3.5rem;
+  }
+
   .title {
     text-align: center;
     font-size: 3rem;
