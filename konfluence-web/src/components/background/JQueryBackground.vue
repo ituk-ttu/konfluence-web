@@ -38,47 +38,47 @@
 </template>
 
 <script>
-  import Bubble from './Bubble';
+import Bubble from './Bubble';
 
-  export default {
-    name: 'JQueryBackground',
-    components: {Bubble},
-    mounted: function () {
-      this.$forceUpdate()
+export default {
+  name: 'JQueryBackground',
+  components: {Bubble},
+  mounted: function () {
+    this.$forceUpdate()
+  },
+  methods: {
+    getRandomInteger: function (min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
     },
-    methods: {
-      getRandomInteger: function (min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-      },
-      getRandomLeft: function () {
-        let clientWidth = document.documentElement.clientWidth;
-        if (this.isMobile()) clientWidth -= 200;
-        return this.getRandomInteger(0, clientWidth)
-      },
-      getRandomTop: function () {
-        let scrollHeight = Math.max(document.getElementById('app').scrollHeight);
-        return this.getRandomInteger(0, scrollHeight + 400)
-      },
-      isMobile: function () {
-        return screen.width < 900;
-      }
+    getRandomLeft: function () {
+      let clientWidth = document.documentElement.clientWidth;
+      if (this.isMobile()) clientWidth -= 200;
+      return this.getRandomInteger(0, clientWidth)
+    },
+    getRandomTop: function () {
+      let scrollHeight = Math.max(document.getElementById('app').scrollHeight);
+      return this.getRandomInteger(0, scrollHeight + 400)
+    },
+    isMobile: function () {
+      return screen.width < 900;
     }
   }
+}
 
-  import 'expose-loader?$!expose-loader?jQuery!jquery'
+import 'expose-loader?$!expose-loader?jQuery!jquery'
 
 
-  $(window).bind('scroll', function () {
-    parallaxScroll();
-  });
+$(window).bind('scroll', function () {
+  parallaxScroll();
+});
 
-  function parallaxScroll() {
-    const scrolled = $(window).scrollTop();
-    $('#parallax-lvl-0').css('top', (0 - (scrolled * .25)) + 'px');
-    $('#parallax-lvl-1').css('top', (0 - (scrolled * .5)) + 'px');
-    $('#parallax-lvl-2').css('top', (0 - (scrolled * .75)) + 'px');
-    $('#parallax-lvl-3').css('top', (0 - (scrolled * .9)) + 'px');
-  }
+function parallaxScroll() {
+  const scrolled = $(window).scrollTop();
+  $('#parallax-lvl-0').css('top', (0 - (scrolled * .25)) + 'px');
+  $('#parallax-lvl-1').css('top', (0 - (scrolled * .5)) + 'px');
+  $('#parallax-lvl-2').css('top', (0 - (scrolled * .75)) + 'px');
+  $('#parallax-lvl-3').css('top', (0 - (scrolled * .9)) + 'px');
+}
 </script>
 
 <style scoped>

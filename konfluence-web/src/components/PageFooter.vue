@@ -1,8 +1,10 @@
 <template>
   <div class="footer">
     <div class="">
-      <p>Made by ITÜK with ☕ and ❤️ <br>
-        ©Konfluence {{ getYear() }} </p>
+      <p>
+        Made by ITÜK with ☕ and ❤️ <br>
+        ©Konfluence {{ getYear() }}
+      </p>
     </div>
   </div>
 </template>

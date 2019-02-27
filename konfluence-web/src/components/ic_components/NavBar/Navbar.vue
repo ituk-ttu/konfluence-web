@@ -2,8 +2,8 @@
   <div class="navbar">
     <template v-for="subPage in subPages">
       <navbar-button
-          :name=subPage.text
-          :scroll-to=subPage.page
+        :name="subPage.text"
+        :scroll-to="subPage.page"
       />
     </template>
   </div>

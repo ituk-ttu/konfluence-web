@@ -5,10 +5,15 @@
         <h1>{{ title }}</h1>
       </div>
       <div class="image-wrapper">
-        <div class="image-row"
-             v-for="imagePath in imagePaths">
-          <img class="image" :src="imagePath"
-              alt="sponsor" />
+        <div
+          v-for="imagePath in imagePaths"
+          class="image-row"
+        >
+          <img
+            class="image"
+            :src="imagePath"
+            alt="sponsor"
+          >
         </div>
       </div>
     </template>

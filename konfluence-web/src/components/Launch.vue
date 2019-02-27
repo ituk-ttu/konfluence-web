@@ -2,7 +2,10 @@
   <div>
     <section class="hero is-fullheight is-white">
       <div class="hero-body">
-        <div class="container" id="title-and-buttons-container">
+        <div
+          id="title-and-buttons-container"
+          class="container"
+        >
           <div class="columns">
             <div class="column">
               <span
@@ -10,7 +13,10 @@
                 class="is-size-2-mobile"
               >
                 konfluence
-                <sup class="is-size-1-desktop" id="yearnumber">
+                <sup
+                  id="yearnumber"
+                  class="is-size-1-desktop"
+                >
                   2019
                 </sup>
               </span>
@@ -19,29 +25,34 @@
               </h2>
             </div>
           </div>
-          <div class="button-row level"
-               v-bind:class="this.isMobile() ? 'increased-top-margin' : ''"
+          <div
+            class="button-row level"
+            :class="this.isMobile() ? 'increased-top-margin' : ''"
           >
             <div class="columns level-left">
               <div class="column">
-                <a class="button is-primary is-outlined is-large is-rounded"
-                   v-bind:class="this.isMobile() ? 'is-fullwidth' : ''"
-                   href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
+                <a
+                  class="button is-primary is-outlined is-large is-rounded"
+                  :class="this.isMobile() ? 'is-fullwidth' : ''"
+                  href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
                 >
                   TICKETS
                 </a>
               </div>
               <div class="column">
-                <div class="button is-success is-outlined is-large is-rounded"
-                     v-bind:class="this.isMobile() ? 'is-fullwidth' : ''"
+                <div
+                  class="button is-success is-outlined is-large is-rounded"
+                  :class="this.isMobile() ? 'is-fullwidth' : ''"
                 >
                   AGENDA
                 </div>
               </div>
               <div class="column">
-                <a class="button is-info is-outlined is-large is-rounded"
-                   v-bind:class="this.isMobile() ? 'is-fullwidth' : ''"
-                   href="https://www.facebook.com/ituk.ttu/">
+                <a
+                  class="button is-info is-outlined is-large is-rounded"
+                  :class="this.isMobile() ? 'is-fullwidth' : ''"
+                  href="https://www.facebook.com/ituk.ttu/"
+                >
                   CONTACT
                 </a>
               </div>
@@ -57,19 +68,19 @@
 </template>
 
 <script>
-  export default {
-    name: "Launch",
-    mounted() {
-      const ticketScript = document.createElement('script');
-      ticketScript.setAttribute('src', 'https://fienta.com/embed.js');
-      document.head.appendChild(ticketScript);
-    },
-    methods: {
-      isMobile: function () {
-        return screen.width < 900;
-      }
+export default {
+  name: "Launch",
+  mounted() {
+    const ticketScript = document.createElement('script');
+    ticketScript.setAttribute('src', 'https://fienta.com/embed.js');
+    document.head.appendChild(ticketScript);
+  },
+  methods: {
+    isMobile: function () {
+      return screen.width < 900;
     }
   }
+}
 </script>
 
 <style scoped>

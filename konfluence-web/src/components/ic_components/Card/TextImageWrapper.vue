@@ -1,18 +1,30 @@
 <template>
   <wrapper>
     <template slot="content">
-      <div :class="imageAlign" class="cardbox">
+      <div
+        :class="imageAlign"
+        class="cardbox"
+      >
         <div class="text-wrapper">
-          <h1 class="title">{{ title }}</h1>
+          <h1 class="title">
+            {{ title }}
+          </h1>
           <p>{{ text }}</p>
 
           <div>
-            <ul v-if="list" class="list-wrapper">
-              <li v-for="element in list">{{ element }}</li>
+            <ul
+              v-if="list"
+              class="list-wrapper"
+            >
+              <li v-for="element in list">
+                {{ element }}
+              </li>
             </ul>
           </div>
 
-          <p v-if="secondary">{{ secondary }}</p>
+          <p v-if="secondary">
+            {{ secondary }}
+          </p>
         </div>
 
         <img :src="imagePath">
