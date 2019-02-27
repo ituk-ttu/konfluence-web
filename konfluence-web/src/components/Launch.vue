@@ -116,7 +116,7 @@ export default {
     font-family: "Keep Calm", sans-serif;
     font-weight: 500;
     font-size: 60pt;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
   }
 
   #yearnumber {

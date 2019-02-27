@@ -1,37 +1,36 @@
-<!-- eslint-disable -->
 <template>
   <div id="wrapper">
     <div id="parallax-lvl-0">
       <Bubble
-              v-for="n in 10"
-              v-bind:top="getRandomTop()"
-              v-bind:left="getRandomLeft()"
+        v-for="n in 10"
+        :top="getRandomTop()"
+        :left="getRandomLeft()"
       />
     </div>
 
     <div id="parallax-lvl-1">
       <Bubble
-              v-for="n in 7"
-              v-bind:top="getRandomTop()"
-              v-bind:left="getRandomLeft()"
+        v-for="n in 7"
+        :top="getRandomTop()"
+        :left="getRandomLeft()"
       />
     </div>
 
     <div id="parallax-lvl-2">
       <Bubble
-              v-for="n in 6"
-              v-bind:top="getRandomTop()"
-              v-bind:left="getRandomLeft()"
-              v-bind:max-size="2"
+        v-for="n in 6"
+        :top="getRandomTop()"
+        :left="getRandomLeft()"
+        :max-size="2"
       />
     </div>
 
     <div id="parallax-lvl-3">
       <Bubble
-              v-for="n in 3"
-              v-bind:top="getRandomTop()"
-              v-bind:left="getRandomLeft()"
-              v-bind:max-size="1"
+        v-for="n in 3"
+        :top="getRandomTop()"
+        :left="getRandomLeft()"
+        :max-size="1"
       />
     </div>
   </div>

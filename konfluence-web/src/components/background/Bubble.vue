@@ -1,8 +1,8 @@
 <template>
   <div 
     class="bubble"
-    v-bind:class="[getRandomSize(), getRandomColor()]"
-    v-bind:style="{ top: this.top + 'px', left: this.left + 'px' }"
+    :class="[getRandomSize(), getRandomColor()]"
+    :style="{ top: top + 'px', left: left + 'px' }"
   />
 </template>
 

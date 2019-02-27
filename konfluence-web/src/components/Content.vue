@@ -3,8 +3,14 @@
     id="content"
     class="container"
   >
+    <tickets
+      id="tickets"
+      class="page-section"
+    />
+
     <text-image-wrapper
       id="about"
+      class="page-section"
       title="About"
       text="Konfluence brings together the best developers, engineers, designers and.., who specialize in front end development with emphasis on quality user interface design and experience, web development and newest front-end technologies. The conference is entirely organized by the students of TalTech school of IT and takes place on 26th of April."
       :list="['How is beautiful and user-friendly design created?',
@@ -16,31 +22,37 @@
       image-path="https://www.intersolar.de/fileadmin/_processed_/9/9/csm_Conference_5cee960ed0.jpg"
     />
 
-    <speakers id="speakers" />
+    <speakers
+      id="speakers"
+      class="page-section"
+    />
 
     <text-image-wrapper
       id="venue"
+      class="page-section"
       title="Venue"
       text="TalTech Mektory Innovatsiooni- ja ettevõtluskeskus, Raja 4c Tallinn"
       image-align="right"
       image-path="https://www.tallinn.ee/gal_pildid/158808.jpg"
     />
 
-    <tickets />
-
     <wrapper
       id="workshops"
+      class="page-section"
       title="Workshops"
       text="TBA"
     />
+
     <wrapper
       id="organizers"
+      class="page-section"
       title="Organizers"
       text="ITÜK"
     />
 
     <sponsor-wrapper
       id="sponsors"
+      class="page-section"
       title="Sponsors"
       :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png']"
     />
@@ -80,6 +92,10 @@ export default {
 
   .right-align {
     align-self: flex-end;
+  }
+
+  .page-section {
+    margin-bottom: 10rem;
   }
 </style>
 

@@ -35,6 +35,7 @@ export default {
     text-align: center;
     color: #2c3e50;
     background-color: #f7f7f7;
+    overflow-x: hidden;
   }
 
   @media (max-width: 900px) {

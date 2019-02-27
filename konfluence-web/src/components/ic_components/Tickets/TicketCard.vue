@@ -31,7 +31,7 @@ export default {
   name: "TicketCard",
   props: {
     title: String,
-    price: Number,
+    price: String,
     disabled: Boolean,
     buttonColor: String
   }
