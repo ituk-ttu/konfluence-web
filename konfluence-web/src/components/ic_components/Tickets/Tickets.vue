@@ -7,15 +7,17 @@
       <div class="column">
         <ticket-card
           title="Early bird"
-          price="10"
+          student-price="4"
+          regular-price="10"
           button-color="color-blue"
           active-until="10/03/2019"
         />
       </div>
       <div class="column">
         <ticket-card
-          title="Regular bird"
-          price="16"
+          title="Standard bird"
+          student-price="10"
+          regular-price="15"
           button-color="color-red"
           disabled=true
           active-until="10/04/2019"
@@ -24,7 +26,8 @@
       <div class="column">
         <ticket-card
           title="Late bird"
-          price="20"
+          student-price="15"
+          regular-price="20"
           button-color="color-green"
           disabled=true
           active-until="23/05/2019"

@@ -4,6 +4,10 @@ export const subPages = [
     page: '#app'
   },
   {
+    text: 'Tickets',
+    page: '#tickets'
+  },
+  {
     text: 'About',
     page: '#about'
   },

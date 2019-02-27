@@ -8,9 +8,18 @@
         <sup class="is-size-4">
           €
         </sup>
-        {{ price }}
+        {{ studentPrice }}
         <sup class="is-size-5">
-          / person
+          / student
+        </sup>
+      </p>
+      <p class="price is-size-1">
+        <sup class="is-size-4">
+          €
+        </sup>
+        {{ regularPrice }}
+        <sup class="is-size-5">
+          / regular
         </sup>
       </p>
       <p class="subheading has-text-grey is-size-6" v-if="activeUntil != null">
@@ -22,7 +31,7 @@
         class="button card-footer-item is-size-4"
         :class="buttonColor"
         :disabled=disabled
-        href="https://ituk.ee"
+        href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
       >
         BUY
       </a>
@@ -35,7 +44,8 @@ export default {
   name: "TicketCard",
   props: {
     title: String,
-    price: String,
+    studentPrice: String,
+    regularPrice: String,
     disabled: Boolean,
     buttonColor: String,
     activeUntil: String
