@@ -9,6 +9,7 @@
           title="Early bird"
           price="10"
           button-color="color-blue"
+          active-until="10/03/2019"
         />
       </div>
       <div class="column">
@@ -16,6 +17,8 @@
           title="Regular bird"
           price="16"
           button-color="color-red"
+          disabled=true
+          active-until="10/04/2019"
         />
       </div>
       <div class="column">
@@ -23,6 +26,8 @@
           title="Late bird"
           price="20"
           button-color="color-green"
+          disabled=true
+          active-until="23/05/2019"
         />
       </div>
     </div>

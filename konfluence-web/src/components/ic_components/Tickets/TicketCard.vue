@@ -13,12 +13,16 @@
           / person
         </sup>
       </p>
+      <p class="subheading has-text-grey is-size-6" v-if="activeUntil != null">
+        AVAILABLE UNTIL <strong>{{ activeUntil }}</strong>
+      </p>
     </div>
     <footer class="card-footer">
       <a
         class="button card-footer-item is-size-4"
         :class="buttonColor"
-        href=""
+        :disabled=disabled
+        href="https://ituk.ee"
       >
         BUY
       </a>
@@ -33,7 +37,8 @@ export default {
     title: String,
     price: String,
     disabled: Boolean,
-    buttonColor: String
+    buttonColor: String,
+    activeUntil: String
   }
 }
 </script>
@@ -74,17 +79,47 @@ export default {
   .color-red {
     background-color: #fc5c65;
     color: white;
+    border: transparent;
   }
 
   /*blue*/
   .color-blue {
     background-color: #45aaf2;
     color: white;
+    border: transparent;
   }
 
   /*green*/
   .color-green {
     background-color: #26de81;
     color: white;
+    border: transparent;
+  }
+
+  /*red*/
+  .color-red[disabled] {
+    background-color: #fc5c65;
+    color: white;
+    border: transparent;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  /*blue*/
+  .color-blue[disabled] {
+    background-color: #45aaf2;
+    color: white;
+    border: transparent;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  /*green*/
+  .color-green[disabled] {
+    background-color: #26de81;
+    color: white;
+    border: transparent;
+    pointer-events: none;
+    cursor: not-allowed;
   }
 </style>
