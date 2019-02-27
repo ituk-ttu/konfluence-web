@@ -22,8 +22,8 @@
           / regular
         </sup>
       </p>
-      <p class="subheading has-text-grey is-size-6" v-if="activeUntil != null">
-        AVAILABLE UNTIL <strong>{{ activeUntil }}</strong>
+      <p class="subheading has-text-grey is-size-6 is-uppercase" v-if="footerText != null">
+        {{ footerText }} <strong>{{ footerDate }}</strong>
       </p>
     </div>
     <footer class="card-footer">
@@ -48,7 +48,8 @@ export default {
     regularPrice: String,
     disabled: Boolean,
     buttonColor: String,
-    activeUntil: String
+    footerText: String,
+    footerDate: String
   }
 }
 </script>
