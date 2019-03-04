@@ -26,11 +26,10 @@
       image-path="https://www.tallinn.ee/gal_pildid/158808.jpg"
     />
 
-    <wrapper
-      id="workshops"
-      title="Workshops"
-      text="TBA"
-    />
+    <!--<wrapper-->
+      <!--id="workshops"-->
+      <!--title="Workshops"-->
+      <!--text="TBA"-->
     <wrapper
       id="organizers"
       title="Organizers"
