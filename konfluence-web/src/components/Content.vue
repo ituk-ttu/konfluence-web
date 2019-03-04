@@ -47,14 +47,14 @@
       id="organizers"
       class="page-section"
       title="Organizers"
-      text="ITÜK"
+      text="Student Council of TalTech's School of IT. We are a group of students, organising a variety of events, LAN parties, visits to IT companies and much more."
     />
 
     <sponsor-wrapper
       id="sponsors"
       class="page-section"
       title="Sponsors"
-      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/Fgldzjc.png']"
+      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://files.slack.com/files-pri/TFAFL5HU4-FGLTT0YJZ/fm_logo_01.png']"
     />
   </div>
 </template>
