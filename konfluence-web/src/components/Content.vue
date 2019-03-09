@@ -51,7 +51,7 @@
       id="sponsors"
       class="page-section"
       title="Sponsors"
-      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://files.slack.com/files-pri/TFAFL5HU4-FGLTT0YJZ/fm_logo_01.png']"
+      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/vaYU7qa.png', 'https://imgur.com/r5uFkE1.png']"
     />
   </div>
 </template>
