@@ -9,25 +9,16 @@
           <h1 class="title">
             {{ title }}
           </h1>
-          <p>{{ text }}</p>
-
-          <div>
-            <ul
-              v-if="list"
-              class="list-wrapper"
-            >
-              <li v-for="element in list">
-                {{ element }}
-              </li>
-            </ul>
-          </div>
-
-          <p v-if="secondary">
-            {{ secondary }}
-          </p>
+          <component :is="textComponent" />
         </div>
 
-        <img :src="imagePath">
+        <figure>
+          <img
+            :src="imagePath"
+            alt="Organizers"
+          >
+          <!--TODO: add alt prop-->
+        </figure>
       </div>
     </template>
   </wrapper>
@@ -35,15 +26,21 @@
 
 <script>
 import Wrapper from './Wrapper'
+import AboutText from '../Text/AboutText'
+import VenueText from '../Text/VenueText'
+import OrganizerText from '../Text/OrganizerText'
 
 export default {
   name: 'WrapperWithImage',
   components: {
-    Wrapper
+    Wrapper,
+    AboutText,
+    VenueText,
+    OrganizerText
   },
   props: {
     title: String,
-    text: String,
+    textComponent: String,
     imagePath: {
       type: String,
       required: true
@@ -51,9 +48,7 @@ export default {
     imageAlign: {
       type: String,
       required: true
-    },
-    list: Array,
-    secondary: String
+    }
   }
 }
 </script>
@@ -76,7 +71,8 @@ export default {
 
   img {
     height: 100%;
-    max-width: inherit;
+    width: 100%;
+    object-fit: cover;
   }
 
   .right {

@@ -12,14 +12,9 @@
       id="about"
       class="page-section"
       title="About"
-      text="Konfluence brings together the best developers, engineers, designers and.., who specialize in front end development with emphasis on quality user interface design and experience, web development and newest front-end technologies. The conference is entirely organized by the students of TalTech school of IT and takes place on 26th of April."
-      :list="['How is beautiful and user-friendly design created?',
-              'How can be development process be safe and effective?',
-              'What are the technologies used by Estonian and international companies and what are the technologies of the future?',
-              'What does the design process of user interfaces look like?']"
-      secondary="The name Konfluence is a word play on the word conference in Estonian (konverents) and the Atlassian Confluence, which is an exemplary software in the fields of high quality product design in both front and back end technologies."
+      text-component="AboutText"
       image-align="left"
-      image-path="https://www.intersolar.de/fileadmin/_processed_/9/9/csm_Conference_5cee960ed0.jpg"
+      image-path="https://i.imgur.com/kovnzYO.jpg"
     />
 
     <speakers
@@ -31,7 +26,7 @@
       id="venue"
       class="page-section"
       title="Venue"
-      text="TalTech Mektory Innovatsiooni- ja ettevõtluskeskus, Raja 4c Tallinn"
+      text-component="VenueText"
       image-align="right"
       image-path="https://www.tallinn.ee/gal_pildid/158808.jpg"
     />
@@ -43,11 +38,13 @@
       text="TBA"
     />
 
-    <wrapper
-      id="organizers"
+    <text-image-wrapper
+      id="organizers-image"
       class="page-section"
-      title="Organizers"
-      text="Student Council of TalTech's School of IT. We are a group of students, organising a variety of events, LAN parties, visits to IT companies and much more."
+      title="Organizer"
+      text-component="OrganizerText"
+      image-align="left"
+      image-path="https://i.imgur.com/SUslQpK.png"
     />
 
     <sponsor-wrapper
