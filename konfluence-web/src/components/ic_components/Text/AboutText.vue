@@ -4,7 +4,7 @@
       Konfluence brings together the best developers, engineers and designers who specialize in front end development
       with emphasis on quality user interface design and experience, web development and newest front-end technologies.
       The conference is entirely organized by the students of TalTech school of IT and takes place on <strong>
-        26th of
+        the 26th of
         April.
       </strong>
     </p>

@@ -2,8 +2,10 @@
   <div class="footer">
     <div class="">
       <p>
-        Made by ITÜK with ☕ and ❤️ <br>
-        ©Konfluence {{ getYear() }}
+        Made by ITÜK with <font-awesome-icon icon="heart" /> and <font-awesome-icon icon="coffee" />
+      </p>
+      <p>
+        <font-awesome-icon icon="copyright" /> Konfluence {{ getYear() }}
       </p>
     </div>
   </div>

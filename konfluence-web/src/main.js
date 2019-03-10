@@ -3,6 +3,15 @@ import App from './App.vue'
 import 'expose-loader?$!expose-loader?jQuery!jquery'
 import VueAnalytics from 'vue-analytics'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope, faHeart, faCoffee, faCopyright, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faFacebook, faEnvelope, faHeart, faCoffee, faCopyright, faGlobe);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+
 
 Vue.config.productionTip = false;
 
@@ -25,11 +34,11 @@ Vue.use({
   install: function(Vue, options){
     Vue.prototype.$jQuery = require('jquery'); // you'll have this.$jQuery anywhere in your vue project
   }
-})
+});
 
 Vue.use(VueAnalytics, {
   id: 'tglt õige on see, masteris muuda ära lic :) UA-134658763-1'
-})
+});
 
 new Vue({
   render: h => h(App),

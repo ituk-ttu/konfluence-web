@@ -6,9 +6,25 @@
     <div class="contact">
       Get in touch with us:
       <ul>
-        <li><a href="https://www.facebook.com/ituk.ttu/">Facebook</a></li>
-        <li><a href="https://www.ituk.ee">Homepage</a></li>
-        <li><a href="mailto:kontakt@ituk.ee">Email</a></li>
+        <li>
+          <font-awesome-icon
+            :icon="['fab', 'facebook']"
+            size="lg"
+          />
+          Message us on
+          <a href="https://www.facebook.com/ituk.ttu/">
+            facebook
+          </a>
+        </li>
+        <li>
+          <font-awesome-icon
+            icon="envelope"
+            size="lg"
+          />
+          <a href="mailto:kontakt@ituk.ee">
+            Email
+          </a>
+        </li>
       </ul>
     </div>
   </div>
