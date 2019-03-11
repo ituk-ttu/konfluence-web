@@ -23,6 +23,11 @@ export default {
     PageContent,
     JQueryBackground,
     PageFooter
+  },
+  mounted() {
+    let fientaScript = document.createElement('script');
+    fientaScript.setAttribute('src', 'https://fienta.com/embed.js');
+    document.head.appendChild(fientaScript)
   }
 }
 </script>

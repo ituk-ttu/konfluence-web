@@ -30,8 +30,8 @@
       <a
         class="button card-footer-item is-size-4"
         :class="buttonColor"
-        :disabled=disabled
-        href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
+        :disabled="disabled"
+        href="https://fienta.com/konfluence-2019"
       >
         BUY
       </a>
