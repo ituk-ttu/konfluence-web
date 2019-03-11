@@ -9,11 +9,16 @@
           v-for="sponsor in sponsors"
           class="column is-one-third"
         >
-          <img
-            class="image"
-            :src="sponsor.imgUrl"
-            :alt="sponsor.company"
+          <a
+            :href="sponsor.link"
+            target="new"
           >
+            <img
+              class="image"
+              :src="sponsor.imgUrl"
+              :alt="sponsor.company"
+            >
+          </a>
         </div>
       </div>
     </template>

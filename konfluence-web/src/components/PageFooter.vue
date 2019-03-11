@@ -2,7 +2,12 @@
   <div class="footer">
     <div class="">
       <p>
-        Made by ITÜK with <font-awesome-icon icon="heart" /> and <font-awesome-icon icon="coffee" />
+        Made by <a
+          href="https://ituk.ee"
+          target="new"
+        >
+          ITÜK
+        </a> with <font-awesome-icon icon="heart" /> and <font-awesome-icon icon="coffee" />
       </p>
       <p>
         <font-awesome-icon icon="copyright" /> Konfluence {{ getYear() }}

@@ -14,7 +14,10 @@
       </div>
       <div class="contact-logos columns is-mobile has-text-centered is-size-3 has-text-dark">
         <div class="column">
-          <a href="https://www.facebook.com/ituk.ttu/">
+          <a
+            href="https://www.facebook.com/ituk.ttu/"
+            target="new"
+          >
             <font-awesome-icon
               :icon="['fab', 'facebook']"
               size="lg"
