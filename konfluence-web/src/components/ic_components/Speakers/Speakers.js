@@ -7,29 +7,29 @@ export const speakers = [
     text: 'Alustasin oma teekonda Levercodeist. Nüüd olen moniisis. Mu arvuti on Apple. Mu lemmik kool on TalTech ja mu lemmik inimene on Emily Joy Krohn. Mis on sinu lemmikud?'
   },
   {
-    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
-    name: 'Doggity doggy',
-    company: 'LHV',
-    text: 'I am the best developer that has ever existed'
+    image: 'https://i.imgur.com/zlwduiq.png',
+    name: 'Raimond Lume',
+    company: 'CGI',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
+  },{
+    image: 'https://i.imgur.com/4KnjewE.png',
+    name: 'Karl Mae',
+    company: 'Bigbank',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
+  },{
+    image: 'https://i.imgur.com/YhG8i4D.png',
+    name: 'Eesti Vabariik',
+    company: 'Viro',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
   },{
     image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
-    name: 'Doggity doggy',
-    company: 'LHV',
-    text: 'I am the best developer that has ever existed'
+    name: 'Donald Trump',
+    company: 'USA',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
   },{
-    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
+    image: 'https://i.imgur.com/zxSPlxr.png',
     name: 'Doggity doggy',
-    company: 'LHV',
-    text: 'I am the best developer that has ever existed'
-  },{
-    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
-    name: 'Doggity doggy',
-    company: 'LHV',
-    text: 'I am the best developer that has ever existed'
-  },{
-    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
-    name: 'Doggity doggy',
-    company: 'LHV',
-    text: 'I am the best developer that has ever existed'
+    company: 'Kennel',
+    text: 'I am the best developer that has ever existed!'
   },
 ];

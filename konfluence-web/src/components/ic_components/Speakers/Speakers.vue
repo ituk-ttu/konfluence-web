@@ -65,6 +65,10 @@ export default {
     overflow: hidden;
   }
 
+  img {
+    object-fit: cover;
+  }
+
   .content {
     text-align: left;
   }
