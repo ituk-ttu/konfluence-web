@@ -51,7 +51,6 @@
       id="sponsors"
       class="page-section"
       title="Sponsors"
-      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/vaYU7qa.png', 'https://imgur.com/r5uFkE1.png', 'https://imgur.com/Ym2e2xO.png']"
     />
   </div>
 </template>
@@ -60,7 +59,7 @@
 import Wrapper from './ic_components/Card/Wrapper'
 import TextImageWrapper from './ic_components/Card/TextImageWrapper'
 import Speakers from './ic_components/Speakers/Speakers.vue'
-import SponsorWrapper from './ic_components/Card/SponsorWrapper'
+import SponsorWrapper from './ic_components/Sponsors/Sponsors.vue'
 import Tickets from "./ic_components/Tickets/Tickets";
 
 export default {

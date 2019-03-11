@@ -18,7 +18,7 @@ export const speakers = [
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
   },{
     image: 'https://i.imgur.com/YhG8i4D.png',
-    name: 'Eesti Vabariik',
+    name: 'Eesti Vabariigi',
     company: 'Viro',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
   },{

@@ -4,15 +4,15 @@
       <div class="title">
         <h1>{{ title }}</h1>
       </div>
-      <div class="columns">
+      <div class="columns is-multiline">
         <div
-          v-for="imagePath in imagePaths"
-          class="column"
+          v-for="sponsor in sponsors"
+          class="column is-one-third"
         >
           <img
             class="image"
-            :src="imagePath"
-            alt="sponsor"
+            :src="sponsor.imgUrl"
+            :alt="sponsor.company"
           >
         </div>
       </div>
@@ -21,7 +21,8 @@
 </template>
 
 <script>
-import Wrapper from './Wrapper'
+import Wrapper from '../Card/Wrapper'
+import { sponsors } from './Sponsors'
 
 export default {
   name: 'SponsorWrapper',
@@ -30,7 +31,11 @@ export default {
   },
   props: {
     title: String,
-    imagePaths: Array
+  },
+  data() {
+    return {
+      sponsors: sponsors
+    }
   }
 }
 </script>
