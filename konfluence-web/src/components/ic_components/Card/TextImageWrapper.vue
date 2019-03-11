@@ -84,7 +84,11 @@ export default {
 
   @media (min-width: 1000px) {
     .text-wrapper {
-      max-width: 40%;
+      max-width: 38%;
+    }
+
+    img {
+      /*max-height: 30rem;*/
     }
   }
 

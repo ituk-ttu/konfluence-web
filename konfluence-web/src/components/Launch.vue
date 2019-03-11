@@ -129,8 +129,4 @@ export default {
   .increased-top-margin {
     margin-top: 80px;
   }
-
-  /*sup {
-    font-size: 30pt;
-  }*/
 </style>

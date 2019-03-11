@@ -21,7 +21,7 @@ export default {
 <style scoped>
 
   p {
-    z-index: 2;
+    z-index: 10;
     margin-left: 1rem;
   }
 

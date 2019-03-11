@@ -3,8 +3,8 @@
     <p class="subtitle">
       Student Council of TalTech's School of IT (ITÜK)
     </p>
-    <p class="is-size-6">
-      We are IT-students organising a variety of events ranging from conferences to LAN-parties passionate about code and software development as a whole.
+    <p class="is-size-5-desktop is-size-6-mobile">
+      We are IT-students organising a variety of events ranging from conferences to LAN-parties. All of us are passionate about code and software development as a whole.
     </p>
     <div class="contact">
       <div class="has-text-centered">
@@ -55,7 +55,7 @@ export default {
   }
 
   .contact {
-    margin-top: 5.5em;
+    margin-top: 4em;
   }
 
   @media (max-width: 900px) {

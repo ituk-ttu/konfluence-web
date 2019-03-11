@@ -14,7 +14,7 @@
       title="About"
       text-component="AboutText"
       image-align="left"
-      image-path="https://i.imgur.com/kovnzYO.jpg"
+      image-path="https://i.imgur.com/kovnzYOh.jpg"
     />
 
     <speakers
@@ -28,7 +28,7 @@
       title="Venue"
       text-component="VenueText"
       image-align="right"
-      image-path="https://www.tallinn.ee/gal_pildid/158808.jpg"
+      image-path="https://i.imgur.com/13NGGM5h.jpg"
     />
 
     <wrapper

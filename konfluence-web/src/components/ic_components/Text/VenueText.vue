@@ -3,7 +3,7 @@
     <h2 class="subtitle is-size-4">
       TalTech Mektory
     </h2>
-    <p class="description is-size-5">
+    <p class="description is-size-5-desktop is-size-6-mobile">
       Bringing together scientists, students and entrepreneurs to generate future facing ideas. Mektory inspires the growths of startups started by students
       both in universities and secondary schools.
     </p>
@@ -11,7 +11,8 @@
       <font-awesome-icon
         icon="map-marker-alt"
         size="lg"
-      /><span>
+      />
+      <span>
         <a
           href="https://www.google.com/maps/place/TalTechi+innovatsiooni-+ja+ettev%C3%B5tluskeskus+MEKTORY/@59.3948705,24.6613989,15z/data=!4m2!3m1!1s0x0:0x8d2a6830f66a1a0d?ved=2ahUKEwiJoYffm_XgAhXrqIsKHU92CmcQ_BIwDXoECAYQCA"
         >
