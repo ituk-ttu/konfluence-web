@@ -12,13 +12,9 @@
                 id="maintitle"
                 class="is-size-2-mobile"
               >
-                konfluence
-                <sup
-                  id="yearnumber"
-                  class="is-size-1-desktop"
-                >
+                konfluence <span id="yearnumber">
                   2019
-                </sup>
+                </span>
               </span>
               <h2 class="subtitle is-size-5-mobile">
                 First of its kind student-organized front-end conference
@@ -32,26 +28,29 @@
             <div class="columns level-left">
               <div class="column">
                 <a
+                  v-scroll-to="'#tickets'"
                   class="button is-primary is-outlined is-large is-rounded"
                   :class="this.isMobile() ? 'is-fullwidth' : ''"
-                  href="https://fienta.com/et/konfluence-2019?c24f66d4336bee44500318e187cd6119"
                 >
                   TICKETS
                 </a>
               </div>
               <div class="column">
-                <div
+                <a
+                  href="#"
+                  title="To be announced"
                   class="button is-success is-outlined is-large is-rounded"
                   :class="this.isMobile() ? 'is-fullwidth' : ''"
+                  disabled
                 >
                   AGENDA
-                </div>
+                </a>
               </div>
               <div class="column">
                 <a
+                  v-scroll-to="'#organizers'"
                   class="button is-info is-outlined is-large is-rounded"
                   :class="this.isMobile() ? 'is-fullwidth' : ''"
-                  href="https://www.facebook.com/ituk.ttu/"
                 >
                   CONTACT
                 </a>

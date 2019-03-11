@@ -9,11 +9,13 @@
           v-for="imagePath in imagePaths"
           class="image-row"
         >
-          <img
-            class="image"
-            :src="imagePath"
-            alt="sponsor"
-          >
+          <figure class="image is-128x128">
+            <img
+              class="image"
+              :src="imagePath"
+              alt="sponsor"
+            >
+          </figure>
         </div>
       </div>
     </template>

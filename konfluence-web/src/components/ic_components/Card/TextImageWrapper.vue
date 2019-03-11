@@ -82,6 +82,12 @@ export default {
     flex-direction: row-reverse;
   }
 
+  @media (min-width: 1000px) {
+    .text-wrapper {
+      max-width: 40%;
+    }
+  }
+
   @media (max-width: 1000px) {
     .cardbox {
       flex-wrap: wrap-reverse;

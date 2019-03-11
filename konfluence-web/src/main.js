@@ -4,11 +4,11 @@ import 'expose-loader?$!expose-loader?jQuery!jquery'
 import VueAnalytics from 'vue-analytics'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope, faHeart, faCoffee, faCopyright, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faBus, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faFacebook, faEnvelope, faHeart, faCoffee, faCopyright, faGlobe);
+library.add(faFacebook, faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faBus, faPhone);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

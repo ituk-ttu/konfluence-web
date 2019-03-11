@@ -39,7 +39,7 @@
     />
 
     <text-image-wrapper
-      id="organizers-image"
+      id="organizers"
       class="page-section"
       title="Organizer"
       text-component="OrganizerText"

@@ -1,31 +1,43 @@
 <template>
   <div>
-    <p>
-      Student Council of TalTech's School of IT. We are a group of students organising a variety of events, LAN parties, visits to IT companies and much more.
+    <p class="subtitle">
+      Student Council of TalTech's School of IT (ITÜK)
+    </p>
+    <p class="is-size-6">
+      We are IT-students organising a variety of events ranging from conferences to LAN-parties passionate about code and software development as a whole.
     </p>
     <div class="contact">
-      Get in touch with us:
-      <ul>
-        <li>
-          <font-awesome-icon
-            :icon="['fab', 'facebook']"
-            size="lg"
-          />
-          Message us on
+      <div class="has-text-centered">
+        <span class="has-text-weight-bold subtitle is-size-4">
+          GET IN TOUCH
+        </span>
+      </div>
+      <div class="contact-logos columns is-mobile has-text-centered is-size-3 has-text-dark">
+        <div class="column">
           <a href="https://www.facebook.com/ituk.ttu/">
-            facebook
+            <font-awesome-icon
+              :icon="['fab', 'facebook']"
+              size="lg"
+            />
           </a>
-        </li>
-        <li>
-          <font-awesome-icon
-            icon="envelope"
-            size="lg"
-          />
-          <a href="mailto:kontakt@ituk.ee">
-            Email
+        </div>
+        <div class="column">
+          <a href="mailto:konfluence@ituk.ee">
+            <font-awesome-icon
+              icon="envelope"
+              size="lg"
+            />
           </a>
-        </li>
-      </ul>
+        </div>
+        <div class="column">
+          <a href="tel:+37253057474">
+            <font-awesome-icon
+              icon="phone"
+              size="lg"
+            />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -38,7 +50,17 @@ export default {
 
 <style scoped>
 
+  .contact-logos {
+    margin-top: 1em;
+  }
+
   .contact {
-    padding-top: 1em;
+    margin-top: 5.5em;
+  }
+
+  @media (max-width: 900px) {
+    .contact {
+      margin-top: 3em;
+    }
   }
 </style>
