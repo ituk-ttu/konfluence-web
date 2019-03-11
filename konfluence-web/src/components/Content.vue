@@ -17,11 +17,6 @@
       image-path="https://i.imgur.com/kovnzYOh.jpg"
     />
 
-    <speakers
-      id="speakers"
-      class="page-section"
-    />
-
     <text-image-wrapper
       id="venue"
       class="page-section"
