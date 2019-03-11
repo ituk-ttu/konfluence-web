@@ -31,12 +31,12 @@
       image-path="https://i.imgur.com/13NGGM5h.jpg"
     />
 
-    <wrapper
+    <!-- <wrapper
       id="workshops"
       class="page-section"
       title="Workshops"
       text="TBA"
-    />
+    />-->
 
     <text-image-wrapper
       id="organizers"
@@ -51,7 +51,7 @@
       id="sponsors"
       class="page-section"
       title="Sponsors"
-      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/vaYU7qa.png', 'https://imgur.com/r5uFkE1.png']"
+      :image-paths="['https://i.imgur.com/Fgldzjc.png', 'https://i.imgur.com/vaYU7qa.png', 'https://imgur.com/r5uFkE1.png', 'https://imgur.com/Ym2e2xO.png']"
     />
   </div>
 </template>

@@ -43,7 +43,7 @@
                   :class="this.isMobile() ? 'is-fullwidth' : ''"
                   disabled
                 >
-                  AGENDA
+                  SPEAKERS & AGENDA
                 </a>
               </div>
               <div class="column">

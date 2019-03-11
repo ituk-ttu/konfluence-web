@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="subtitle">
+    <p class="subtitle is-size-4-desktop">
       Student Council of TalTech's School of IT (ITÜK)
     </p>
     <p class="is-size-5-desktop is-size-6-mobile">

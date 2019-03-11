@@ -4,18 +4,16 @@
       <div class="title">
         <h1>{{ title }}</h1>
       </div>
-      <div class="image-wrapper">
+      <div class="columns">
         <div
           v-for="imagePath in imagePaths"
-          class="image-row"
+          class="column"
         >
-          <figure class="image is-128x128">
-            <img
-              class="image"
-              :src="imagePath"
-              alt="sponsor"
-            >
-          </figure>
+          <img
+            class="image"
+            :src="imagePath"
+            alt="sponsor"
+          >
         </div>
       </div>
     </template>
@@ -43,28 +41,17 @@ export default {
     font-size: 3rem;
   }
 
-  .image-wrapper {
-    display: block;
-  }
-
-  .image-row {
-    float: left;
-    width: 33.33%;
-    height: auto;
-  }
-
-  .image-row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   .image {
     transition: transform .4s;
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    display: block;
+    margin: auto;
   }
 
   .image:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 
   .sponsors-wrapper {
