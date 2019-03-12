@@ -1,5 +1,10 @@
 export const sponsors = [
   {
+    company: 'Monese',
+    imgUrl: 'https://imgur.com/ndUVrRj.png',
+    link: 'https://monese.com/'
+  },
+  {
     company: 'TalTech',
     imgUrl: 'https://www.ttu.ee/public/u/ulikool/Tunnusgraafika/TalTech_Gradient.png',
     link: 'https://taltech.ee/'
@@ -28,5 +33,10 @@ export const sponsors = [
     company: 'Nortal',
     imgUrl: 'https://imgur.com/FcDLy1t.png',
     link: 'https://www.nortal.com'
+  },
+  {
+    company: 'LHV',
+    imgUrl: 'https://imgur.com/Cj7ShB6.png',
+    link: 'https://lhv.ee/'
   }
 ];
