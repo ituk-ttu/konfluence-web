@@ -12,16 +12,8 @@ export const subPages = [
     page: '#about'
   },
   {
-    text: 'Speakers',
-    page: '#speakers'
-  },
-  {
     text: 'Venue',
     page: '#venue'
-  },
-  {
-    text: 'Workshops',
-    page: '#workshops'
   },
   {
     text: 'Organizers',
