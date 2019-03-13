@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import 'expose-loader?$!expose-loader?jQuery!jquery'
-import VueAnalytics from 'vue-analytics'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faBus, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -33,10 +32,6 @@ Vue.use({
   install: function(Vue, options){
     Vue.prototype.$jQuery = require('jquery'); // you'll have this.$jQuery anywhere in your vue project
   }
-});
-
-Vue.use(VueAnalytics, {
-  id: 'UA-134658763-1'
 });
 
 new Vue({
