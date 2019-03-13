@@ -22,6 +22,7 @@ export default {
     title: String,
     text: String
   }
+
 }
 </script>
 
