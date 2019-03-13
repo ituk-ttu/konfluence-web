@@ -28,31 +28,6 @@ export default {
     let fientaScript = document.createElement('script');
     fientaScript.setAttribute('src', 'https://fienta.com/embed.js');
     document.head.appendChild(fientaScript)
-  },
-  metaInfo: {
-    title: 'Konfluence 2019',
-    meta: [
-      {
-        'property': 'og:title',
-        'content': 'Konfluence 2019'
-      },
-      {
-        'property': 'og:url',
-        'content': 'https://konfluence.xyz/'
-      },
-      {
-        'property': 'og:type',
-        'content': 'website'
-      },
-      {
-        'property': 'og:description',
-        'content': 'First of its kind student-organized front-end conference'
-      },
-      {
-        'property': 'og:image',
-        'content': 'https://i.imgur.com/9L972Lbl.jpg'
-      }
-    ]
   }
 }
 </script>

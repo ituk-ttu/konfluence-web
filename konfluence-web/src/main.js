@@ -2,7 +2,6 @@ import Vue from 'vue'
 import App from './App.vue'
 import 'expose-loader?$!expose-loader?jQuery!jquery'
 import VueAnalytics from 'vue-analytics'
-import Meta from 'vue-meta'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faBus, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -40,8 +39,6 @@ Vue.use({
 Vue.use(VueAnalytics, {
   id: 'tglt õige on see, masteris muuda ära lic :) UA-134658763-1'
 });
-
-Vue.use(Meta);
 
 new Vue({
   render: h => h(App),
