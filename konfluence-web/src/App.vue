@@ -28,6 +28,11 @@ export default {
     let fientaScript = document.createElement('script');
     fientaScript.setAttribute('src', 'https://fienta.com/embed.js');
     document.head.appendChild(fientaScript)
+  },
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
   }
 }
 </script>
