@@ -38,5 +38,10 @@ export const sponsors = [
     company: 'LHV',
     imgUrl: 'https://imgur.com/Cj7ShB6.png',
     link: 'https://lhv.ee/'
+  },
+  {
+    company: 'Veriff',
+    imgUrl: 'https://imgur.com/0TN86pB.png',
+    link: 'https://veriff.me/'
   }
 ];
