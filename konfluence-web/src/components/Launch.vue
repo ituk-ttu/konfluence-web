@@ -15,11 +15,12 @@
                 konfluence <span id="yearnumber">
                   2019
                 </span>
-                <h1 class="date">26th April</h1>
               </span>
               <h2 class="subtitle is-size-5-mobile">
                 First of its kind student-organized front-end conference
               </h2>
+              <h1 class="date">26th April | MEKTORY</h1>
+
             </div>
           </div>
           <div
@@ -133,6 +134,7 @@ export default {
 
   .date {
     padding-bottom: 1rem;
-    color: #26de81;
+    color: #1ed385;
+    font-weight: 700;
   }
 </style>
