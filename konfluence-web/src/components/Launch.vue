@@ -10,17 +10,21 @@
             <div class="column">
               <span
                 id="maintitle"
-                class="is-size-2-mobile"
+                class="is-size-3-mobile"
               >
                 konfluence <span id="yearnumber">
                   2019
                 </span>
               </span>
-              <h2 class="subtitle is-size-5-mobile">
-                First of its kind student-organized front-end conference
+              <h2 class="subtitle is-size-4-desktop is-size-5-mobile">
+                First of its kind student-organized front-end conference |
+                <span class="date">
+                  April 26th
+                </span>
               </h2>
-              <h1 class="date">26th April | MEKTORY</h1>
-
+              <!-- <h1 class="date">
+                26th of April | MEKTORY
+              </h1>-->
             </div>
           </div>
           <div
@@ -133,7 +137,7 @@ export default {
   }
 
   .date {
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
     color: #1ed385;
     font-weight: 700;
   }

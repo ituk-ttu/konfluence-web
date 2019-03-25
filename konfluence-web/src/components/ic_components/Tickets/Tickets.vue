@@ -10,7 +10,7 @@
           student-price="4"
           regular-price="10"
           button-color="color-blue"
-          footer-date="31/03/2019"
+          footer-date="07/04/2019"
           footer-text="Available until"
         />
       </div>
@@ -20,8 +20,8 @@
           student-price="10"
           regular-price="15"
           button-color="color-red"
-          disabled=true
-          footer-date="01/04/2019"
+          disabled="true"
+          footer-date="08/04/2019"
           footer-text="Available from"
         />
       </div>
@@ -31,7 +31,7 @@
           student-price="15"
           regular-price="20"
           button-color="color-green"
-          disabled=true
+          disabled="true"
           footer-text="Event day"
         />
       </div>
