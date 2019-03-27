@@ -51,7 +51,6 @@
 </template>
 
 <script>
-import Wrapper from './ic_components/Card/Wrapper'
 import TextImageWrapper from './ic_components/Card/TextImageWrapper'
 import Speakers from './ic_components/Speakers/Speakers.vue'
 import SponsorWrapper from './ic_components/Sponsors/Sponsors.vue'
@@ -62,7 +61,6 @@ export default {
   components: {
     Tickets,
     Speakers,
-    Wrapper,
     TextImageWrapper,
     SponsorWrapper
   }
