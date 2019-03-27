@@ -3,8 +3,8 @@
     <h1 class="title">
       Tickets
     </h1>
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-multiline is-centered">
+      <div class="column is-one-third-widescreen is-half-tablet">
         <ticket-card
           title="Early bird"
           student-price="4"
@@ -14,7 +14,7 @@
           footer-text="Available until"
         />
       </div>
-      <div class="column">
+      <div class="column is-one-third-widescreen is-half-tablet">
         <ticket-card
           title="Standard bird"
           student-price="10"
@@ -25,7 +25,7 @@
           footer-text="Available from"
         />
       </div>
-      <div class="column">
+      <div class="column is-one-third-widescreen is-half-tablet">
         <ticket-card
           title="Late bird"
           student-price="15"

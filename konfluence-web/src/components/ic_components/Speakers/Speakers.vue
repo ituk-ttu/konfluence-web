@@ -27,12 +27,19 @@
             </div>
 
             <div class="content">
-              {{ speaker.text }}
+              <div class="overflow-scroll-gradient">
+                <div class="overflow-scroll-gradient__scroller">
+                  <span>{{ speaker.text }}</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </template>
     </div>
+    <h2 class="subtitle">
+      More speakers TBA soon!
+    </h2>
   </div>
 </template>
 
@@ -70,12 +77,44 @@ export default {
   }
 
   .content {
-    text-align: left;
+    text-align: justify;
+    white-space: pre-line;
   }
 
   .z-index {
     z-index: 10;
     position: relative;
+  }
+
+  .overflow-scroll-gradient {
+    position: relative;
+  }
+
+  .overflow-scroll-gradient::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.001),
+            white
+    ); /* transparent keyword is broken in Safari */
+    pointer-events: none;
+  }
+  .overflow-scroll-gradient__scroller {
+    overflow-y: scroll;
+    background: white;
+    width: 100%;
+    height: 150px;
+    line-height: 1.2;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .overflow-scroll-gradient__scroller::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
   }
   
   @media (max-width: 1000px) {
@@ -86,31 +125,5 @@ export default {
     .speaker-card {
       margin: 1rem 0;
     }
-  }
-
-  .content {
-    position: relative;
-  }
-  .content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 300px;
-    height: 25px;
-    background: linear-gradient(white, rgba(255, 255, 255, 0.001)); /* transparent keyword is broken in Safari */
-  }
-  .content::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 300px;
-    height: 25px;
-    background: linear-gradient(rgba(255, 255, 255, 0.001), white); /* transparent keyword is broken in Safari */
-  }
-  .content {
-    overflow-y: scroll;
-    background: white;
-    padding: 15px 0;
-    height: 15rem;
   }
 </style>
