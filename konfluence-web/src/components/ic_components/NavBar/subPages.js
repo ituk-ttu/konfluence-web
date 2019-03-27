@@ -12,6 +12,10 @@ export const subPages = [
     page: '#about'
   },
   {
+    text: 'Speakers',
+    page: "#speakers"
+  },
+  {
     text: 'Venue',
     page: '#venue'
   },

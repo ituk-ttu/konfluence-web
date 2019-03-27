@@ -87,4 +87,30 @@ export default {
       margin: 1rem 0;
     }
   }
+
+  .content {
+    position: relative;
+  }
+  .content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 25px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0.001)); /* transparent keyword is broken in Safari */
+  }
+  .content::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 25px;
+    background: linear-gradient(rgba(255, 255, 255, 0.001), white); /* transparent keyword is broken in Safari */
+  }
+  .content {
+    overflow-y: scroll;
+    background: white;
+    padding: 15px 0;
+    height: 15rem;
+  }
 </style>

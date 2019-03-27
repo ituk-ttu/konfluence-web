@@ -1,35 +1,21 @@
 export const speakers = [
 
   {
-    image: 'https://scontent.fbud2-1.fna.fbcdn.net/v/t31.0-8/24059750_1614230071949820_2202051073901494972_o.jpg?_nc_cat=108&_nc_ht=scontent.fbud2-1.fna&oh=05293b652c1c6768aaa5508c011e6ae7&oe=5CE601BA',
-    name: 'Kaspar Kivistik',
-    company: 'Monese',
-    text: 'Alustasin oma teekonda Levercodeist. Nüüd olen moniisis. Mu arvuti on Apple. Mu lemmik kool on TalTech ja mu lemmik inimene on Emily Joy Krohn. Mis on sinu lemmikud?'
+    image: 'https://i.imgur.com/J23FdT2.png',
+    name: 'Vaiko Vahter',
+    company: 'Finestmedia AS juhtivarendaja',
+    text: 'Olen tarkvaraarendusega tegelenud kuus aastat. Kõige rohkem pakuvad mulle huvi keerukad loogikaülesanded. Vabal ajal proovin aega leida kodu automatiseerimise jaoks ning kui ma juhuslikult arvuti taga ei ole, siis mängin sõpradega lauamänge või reisin seljakotiga maailmas ringi.'
   },
   {
-    image: 'https://i.imgur.com/zlwduiq.png',
-    name: 'Raimond Lume',
-    company: 'CGI',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
-  },{
-    image: 'https://i.imgur.com/4KnjewE.png',
-    name: 'Karl Mae',
-    company: 'Bigbank',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
-  },{
-    image: 'https://i.imgur.com/YhG8i4D.png',
-    name: 'Eesti Vabariigi',
-    company: 'Viro',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
-  },{
-    image: 'http://www.samhurdphotography.com/wp-content/uploads/2014/06/dc-celebrity-portrait-photographers.jpg',
-    name: 'Donald Trump',
-    company: 'USA',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo mi nec rhoncus laoreet. In sed tortor nunc. Suspendisse non iaculis mi.'
-  },{
-    image: 'https://i.imgur.com/zxSPlxr.png',
-    name: 'Doggity doggy',
-    company: 'Kennel',
-    text: 'I am the best developer that has ever existed!'
+    image: 'https://i.imgur.com/QkB1bZN.png',
+    name: 'Lembit Lõpp',
+    company: 'Lead Engineer at Pipedrive',
+    text: 'Lead engineer @ Pipedrive CORE Tribe. Enabling front-end developers by building awesome tools and asking silly questions.'
+  },
+  {
+    image: 'https://i.imgur.com/aZHNJFB.jpg',
+    name: 'Margus Holland',
+    company: 'LHV',
+    text: 'Margus Holland on erinevaid kasutajaliideseid disaininud ja arendanud enam kui 15 aastat, pakkudes töötavaid lahendusi klientidele nii freelance vormis kui tööandja juures. Marguse praegune tööandja on LHV Pank, kus tema ülesandeks igapäevaselt on mobiili- ja internetipanga tootejuhtimine ühelt poolt ning digitaalpanganduse tiimi juhtimine teiselt. Varasemalt on ta vedanud Skype’s skype.com veebitiimi ning Helmeses töötanud kasutajaliideste arendajana/disainerina. Vabal ajal tegeleb ta lisaks muudele asjadele mängude arendusega Apple iOS platvormile.'
   },
 ];
