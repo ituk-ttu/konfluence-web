@@ -22,9 +22,6 @@
                   April 26th
                 </span>
               </h2>
-              <!-- <h1 class="date">
-                26th of April | MEKTORY
-              </h1>-->
             </div>
           </div>
           <div
@@ -43,13 +40,12 @@
               </div>
               <div class="column">
                 <a
-                  href="#"
-                  title="To be announced"
+                  v-scroll-to="'#speakers'"
+                  title="Speakers"
                   class="button is-success is-outlined is-large is-rounded"
                   :class="this.isMobile() ? 'is-fullwidth' : ''"
-                  disabled
                 >
-                  SPEAKERS & AGENDA
+                  SPEAKERS
                 </a>
               </div>
               <div class="column">

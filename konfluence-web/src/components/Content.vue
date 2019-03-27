@@ -17,7 +17,9 @@
       image-path="https://i.imgur.com/kovnzYOh.jpg"
     />
 
-    <Speakers />
+    <Speakers
+      id="speakers"
+    />
 
     <text-image-wrapper
       id="venue"
