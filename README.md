@@ -1,5 +1,5 @@
 # Konfluence
-![travis build](https://travis-ci.com/kasparkivistik/konfluence-web.svg?token=gXvFDxJzVmgcNC85f89v&branch=develop)
+[![Build Status](https://travis-ci.com/kasparkivistik/konfluence-web.svg?branch=master)](https://travis-ci.com/kasparkivistik/konfluence-web)
 
 
 Source code for konfluence.xyz - a first of its kind student-organized front-end conference.
