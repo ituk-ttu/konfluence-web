@@ -2,14 +2,21 @@
 ![travis build](https://travis-ci.com/kasparkivistik/konfluence-web.svg?token=gXvFDxJzVmgcNC85f89v&branch=develop)
 
 
-## Sublayers
-* Home
-* About
-* Speakers
-* Venue (et silm puhata saaks)
-* Workshops
-* Sponsors
-* Organizers
+Source code for konfluence.xyz - a first of its kind student-organized front-end conference.
+Vue.js SPA
 
-## Colors
-https://flatuicolors.com/palette/de
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
