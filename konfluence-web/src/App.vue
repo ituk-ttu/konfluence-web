@@ -26,13 +26,9 @@ export default {
   },
   mounted() {
     let fientaScript = document.createElement('script');
+    fientaScript.async = true;
     fientaScript.setAttribute('src', 'https://fienta.com/embed.js');
     document.head.appendChild(fientaScript)
-  },
-  methods: {
-    track () {
-      this.$ga.page('/')
-    }
   }
 }
 </script>
