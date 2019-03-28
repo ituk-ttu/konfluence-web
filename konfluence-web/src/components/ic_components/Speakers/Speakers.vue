@@ -29,8 +29,7 @@
             <div class="content">
               <div class="overflow-scroll-gradient">
                 <div class="overflow-scroll-gradient__scroller">
-                  <span>{{ speaker.text }}</span>
-                  <br>
+                  <span class="speaker-text">{{ speaker.text }}</span>
                 </div>
               </div>
             </div>
@@ -85,6 +84,10 @@ export default {
   .z-index {
     z-index: 10;
     position: relative;
+  }
+  
+  .speaker-text {
+    padding-bottom: 1rem; 
   }
 
   .overflow-scroll-gradient {
