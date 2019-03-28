@@ -30,6 +30,7 @@
               <div class="overflow-scroll-gradient">
                 <div class="overflow-scroll-gradient__scroller">
                   <span>{{ speaker.text }}</span>
+                  <br>
                 </div>
               </div>
             </div>
