@@ -6,6 +6,7 @@ export const agendaItems = [
     speaker: 'Lembit Lõpp',
     company: 'Pipedirve',
     imageSrc: 'https://imgur.com/Ym2e2xO.png',
+    language: 'GB',
   },
   {
     index: 2,
@@ -14,6 +15,7 @@ export const agendaItems = [
     speaker: 'Raimond Lume',
     company: 'ITÜK',
     imageSrc: 'https://imgur.com/r5uFkE1.png',
+    language: 'EE',
   },
   {
     index: 3,
@@ -22,6 +24,7 @@ export const agendaItems = [
     speaker: 'Margus Holland',
     company: 'LHV',
     imageSrc: 'https://i.imgur.com/REFkZU6.png',
+    language: 'GB',
   },
   {
     index: 4,
@@ -30,6 +33,7 @@ export const agendaItems = [
     speaker: 'Kaspar Kivistik',
     company: 'Monese',
     imageSrc: 'https://imgur.com/ndUVrRj.png',
+    language: 'GB',
   },
   {
     index: 5,
@@ -38,6 +42,7 @@ export const agendaItems = [
     speaker: 'Vaiko Vahter',
     company: 'Finestmedia',
     imageSrc: 'https://i.imgur.com/vaYU7qa.png',
+    language: 'EE',
   },
   {
     index: 6,
@@ -46,5 +51,6 @@ export const agendaItems = [
     speaker: 'Karl Mae',
     company: 'BigBank',
     imageSrc: 'https://imgur.com/FcDLy1t.png',
+    language: 'GB',
   },
 ];

@@ -7,9 +7,14 @@ import {faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faB
 import {faFacebook} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 
+library.add(faFacebook, faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faBus, faPhone);
+
+
+import FlagIcon from 'vue-flag-icon'
+Vue.use(FlagIcon);
+
 import VueScrollTo from 'vue-scrollto'
 
-library.add(faFacebook, faEnvelope, faHeart, faCoffee, faCopyright, faGlobe, faMapMarkerAlt, faBus, faPhone);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

@@ -15,6 +15,7 @@
           :time="agendaItem.time"
           :image-src="agendaItem.imageSrc"
           :company="agendaItem.company"
+          :language="agendaItem.language"
         />
       </div>
       <div
@@ -28,6 +29,7 @@
           :time="agendaItem.time"
           :image-src="agendaItem.imageSrc"
           :company="agendaItem.company"
+          :language="agendaItem.language"
         />
       </div>
     </div>

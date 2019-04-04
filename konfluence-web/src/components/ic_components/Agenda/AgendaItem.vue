@@ -9,10 +9,10 @@
       <wrapper>
         <template slot="content">
           <div class="agenda-item is-vcentered">
-            <h1 class="title is-size-4">
+            <h1 class="title is-size-4 is-size-5-mobile">
               {{ title }}
             </h1>
-            <h2 class="speaker subtitle is-size-4">
+            <h2 class="speaker subtitle is-size-4 is-size-5-mobile">
               {{ speaker }}
             </h2>
             <img
@@ -20,6 +20,9 @@
               :src="imageSrc"
               :alt="company"
             >
+            <flag
+              :iso="language"
+            />
           </div>
         </template>
       </wrapper>
@@ -38,10 +41,15 @@ export default {
     speaker: String,
     time: String,
     imageSrc: String,
-    company: String
+    company: String,
+    language: String
   }
 }
 </script>
+
+<style>
+
+</style>
 
 <style scoped>
   h1, h2 {
@@ -50,6 +58,7 @@ export default {
 
   .title {
     margin-bottom: 0 !important;
+    padding-right: 1.6rem;
     font-weight: 500;
     font-family: "Keep Calm", sans-serif;
   }
@@ -83,6 +92,18 @@ export default {
     padding: 0 1.5rem 1.5rem 0;
   }
 
+  .flag-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem 1rem 0 0;
+    border-radius: 1em;
+    font-size: 1.5rem;
+    -moz-box-shadow:    inset 0 0 4px #000000;
+    -webkit-box-shadow: inset 0 0 4px #000000;
+    box-shadow:         inset 0 0 4px #000000;
+  }
+
   @media (max-width: 900px) {
     .wrapper {
       margin: 0.3rem 0.8rem 0 0.8rem;
@@ -91,6 +112,10 @@ export default {
     .image {
       width: 7rem;
       padding: 0 1rem 1rem 0;
+    }
+
+    .flag-icon {
+      font-size: 1.2rem;
     }
   }
 
