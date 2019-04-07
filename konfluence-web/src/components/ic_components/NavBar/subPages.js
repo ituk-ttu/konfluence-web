@@ -20,12 +20,12 @@ export const subPages = [
     page: '#venue'
   },
   {
-    text: 'Organizers',
-    page: '#organizers'
-  },
-  {
     text: 'Agenda',
     page: '#agenda'
+  },
+  {
+    text: 'Organizers',
+    page: '#organizers'
   },
   {
     text: 'Sponsors',
