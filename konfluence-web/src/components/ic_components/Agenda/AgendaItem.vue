@@ -6,9 +6,9 @@
       </span>
     </div>
     <div class="column">
-      <wrapper>
+      <wrapper :class="disabled ? 'agenda-disabled' : ''">
         <template slot="content">
-          <div class="agenda-item is-vcentered">
+          <div v-if="!disabled" class="agenda-item" >
             <h1 class="title is-size-4 is-size-5-mobile">
               {{ title }}
             </h1>
@@ -20,9 +20,12 @@
               :src="imageSrc"
               :alt="company"
             >
-            <flag
+            <!--<flag
               :iso="language"
-            />
+            />-->
+          </div>
+          <div v-if="disabled" class="agenda-item">
+            <h1>To be announced!</h1>
           </div>
         </template>
       </wrapper>
@@ -42,7 +45,8 @@ export default {
     time: String,
     imageSrc: String,
     company: String,
-    language: String
+    language: String,
+    disabled: Boolean
   }
 }
 </script>
@@ -77,6 +81,12 @@ export default {
 
   .agenda-item {
     text-align: left;
+  }
+
+  .agenda-disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .time {

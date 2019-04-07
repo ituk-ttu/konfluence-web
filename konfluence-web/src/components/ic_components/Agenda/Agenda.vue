@@ -16,6 +16,7 @@
           :image-src="agendaItem.imageSrc"
           :company="agendaItem.company"
           :language="agendaItem.language"
+          :disabled="agendaItem.disabled"
         />
       </div>
       <div
@@ -30,6 +31,7 @@
           :image-src="agendaItem.imageSrc"
           :company="agendaItem.company"
           :language="agendaItem.language"
+          :disabled="agendaItem.disabled"
         />
       </div>
     </div>
