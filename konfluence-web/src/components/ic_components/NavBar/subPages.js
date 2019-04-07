@@ -24,6 +24,10 @@ export const subPages = [
     page: '#organizers'
   },
   {
+    text: 'Agenda',
+    page: '#agenda'
+  },
+  {
     text: 'Sponsors',
     page: '#sponsors'
   }
