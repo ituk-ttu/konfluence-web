@@ -15,6 +15,6 @@ export const speakers = [
     image: 'https://i.imgur.com/J23FdT2.png',
     name: 'Vaiko Vahter',
     company: 'Finestmedia AS juhtivarendaja',
-    text: 'Vaiko on tarkvaraarendusega tegelenud kuus aastat. Kõige rohkem pakuvad talle huvi keerukad loogikaülesanded. Vabal ajal proovib ta aega leida kodu automatiseerimise jaoks ning kui ta juhuslikult arvuti taga ei ole, siis mängib sõpradega lauamänge või reisin seljakotiga maailmas ringi.'
+    text: 'Vaiko on tarkvaraarendusega tegelenud kuus aastat. Kõige rohkem pakuvad talle huvi keerukad loogikaülesanded. Vabal ajal proovib ta aega leida kodu automatiseerimise jaoks ning kui ta juhuslikult arvuti taga ei ole, siis mängib sõpradega lauamänge või reisib seljakotiga maailmas ringi.'
   }
 ];

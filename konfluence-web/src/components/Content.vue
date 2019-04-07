@@ -37,6 +37,11 @@
       text="TBA"
     />-->
 
+    <agenda
+      id="agenda"
+      class="page-section"
+    />
+
     <text-image-wrapper
       id="organizers"
       class="page-section"
@@ -59,6 +64,7 @@ import TextImageWrapper from './ic_components/Card/TextImageWrapper'
 import Speakers from './ic_components/Speakers/Speakers.vue'
 import SponsorWrapper from './ic_components/Sponsors/Sponsors.vue'
 import Tickets from "./ic_components/Tickets/Tickets";
+import Agenda from "./ic_components/Agenda/Agenda";
 
 export default {
   name: 'Content',
@@ -66,7 +72,8 @@ export default {
     Tickets,
     Speakers,
     TextImageWrapper,
-    SponsorWrapper
+    SponsorWrapper,
+    Agenda
   }
 }
 </script>
