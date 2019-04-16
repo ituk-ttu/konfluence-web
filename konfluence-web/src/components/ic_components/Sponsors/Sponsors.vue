@@ -4,10 +4,10 @@
       <div class="title">
         <h1>{{ title }}</h1>
       </div>
-      <div class="columns is-multiline">
+      <div class="columns is-multiline is-centered">
         <div
           v-for="sponsor in sponsors"
-          class="column is-one-third"
+          class="column is-one-quarter"
         >
           <a
             :href="sponsor.link"
