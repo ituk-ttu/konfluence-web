@@ -16,5 +16,11 @@ export const speakers = [
     name: 'Vaiko Vahter',
     company: 'Finestmedia AS juhtivarendaja',
     text: 'Vaiko on tarkvaraarendusega tegelenud kuus aastat. Kõige rohkem pakuvad talle huvi keerukad loogikaülesanded. Vabal ajal proovib ta aega leida kodu automatiseerimise jaoks ning kui ta juhuslikult arvuti taga ei ole, siis mängib sõpradega lauamänge või reisib seljakotiga maailmas ringi.'
+  },
+  {
+    image: 'https://i.imgur.com/Ev274z2h.jpg',
+    name: 'Martin Kikkas',
+    company: 'Product designer at Veriff',
+    text: 'Martin has been working with digital products and design for over 6 years. He is currently a product designer at Veriff - a startup that provides online identity verification, helping prevent fraud online. His previous experience includes designing software for salespeople at Pipedrive and working as a freelancer. He believes that research and data analysis are an important part of the design process, crucial to understanding user needs and building a better product.'
   }
 ];
