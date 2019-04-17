@@ -43,5 +43,15 @@ export const sponsors = [
     company: 'Veriff',
     imgUrl: 'https://imgur.com/0TN86pB.png',
     link: 'https://veriff.me/'
+  },
+  {
+    company: 'Avalanche Laboratory',
+    imgUrl: 'https://imgur.com/3SBHDIu.png',
+    link: 'https://www.avalanchelabs.ee/'
+  },
+  {
+    company: 'Iglu',
+    imgUrl: 'https://imgur.com/lY92C7P.png',
+    link: 'https://iglu.ee/'
   }
 ];

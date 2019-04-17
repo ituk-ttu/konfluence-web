@@ -22,7 +22,7 @@ export const agendaItems = [
   {
     index: 3,
     time: '14.00',
-    title: "From back-end to front-end – a practicians view. Where goes the line?",
+    title: "Back-endist vaade front-endi – kus jookseb piir? Praktiku kogemus.",
     speaker: 'Vaiko Vahter',
     company: 'Finestmedia',
     imageSrc: 'https://i.imgur.com/vaYU7qa.png',
@@ -32,12 +32,12 @@ export const agendaItems = [
   {
     index: 4,
     time: '15.00',
-    title: "Why doesn't CGI do CGI",
-    speaker: 'Raimond Lume',
-    company: 'ITÜK',
-    imageSrc: 'https://imgur.com/r5uFkE1.png',
-    language: 'EE',
-    disabled: true
+    title: "Measuring the impact of design",
+    speaker: 'Martin Kikkas',
+    company: 'Veriff',
+    imageSrc: 'https://i.imgur.com/0TN86pB.png',
+    language: 'GB',
+    disabled: false
   },
   {
     index: 5,

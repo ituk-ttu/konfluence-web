@@ -20,9 +20,9 @@
               :src="imageSrc"
               :alt="company"
             >
-            <!--<flag
+            <flag
               :iso="language"
-            />-->
+            />
           </div>
           <div v-if="disabled" class="agenda-item">
             <h1>To be announced!</h1>
