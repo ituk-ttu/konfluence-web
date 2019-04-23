@@ -9,7 +9,7 @@
       >
         <agenda-item
           v-for="agendaItem in agendaItems"
-          v-if="agendaItem.index <= 3"
+          v-if="agendaItem.index <= 6"
           :title="agendaItem.title"
           :speaker="agendaItem.speaker"
           :time="agendaItem.time"
@@ -17,6 +17,7 @@
           :company="agendaItem.company"
           :language="agendaItem.language"
           :disabled="agendaItem.disabled"
+          :sub-item="agendaItem.subItem"
         />
       </div>
       <div
@@ -24,7 +25,7 @@
       >
         <agenda-item
           v-for="agendaItem in agendaItems"
-          v-if="agendaItem.index >= 4"
+          v-if="agendaItem.index >= 7"
           :title="agendaItem.title"
           :speaker="agendaItem.speaker"
           :time="agendaItem.time"
@@ -32,6 +33,7 @@
           :company="agendaItem.company"
           :language="agendaItem.language"
           :disabled="agendaItem.disabled"
+          :sub-item="agendaItem.subItem"
         />
       </div>
     </div>

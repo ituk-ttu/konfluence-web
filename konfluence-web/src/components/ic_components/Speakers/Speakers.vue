@@ -38,7 +38,7 @@
       </template>
     </div>
     <h2 class="subtitle">
-      More speakers TBA soon!
+      Last speaker TBA soon!
     </h2>
   </div>
 </template>

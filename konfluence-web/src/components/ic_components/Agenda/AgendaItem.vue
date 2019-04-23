@@ -6,7 +6,7 @@
       </span>
     </div>
     <div class="column">
-      <wrapper :class="disabled ? 'agenda-disabled' : ''">
+      <wrapper v-if="!subItem" :class="disabled ? 'agenda-disabled' : ''">
         <template slot="content">
           <div v-if="!disabled" class="agenda-item" >
             <h1 class="title is-size-4 is-size-5-mobile">
@@ -29,6 +29,15 @@
           </div>
         </template>
       </wrapper>
+      <wrapper v-if="subItem" class="sub-agenda">
+        <template slot="content">
+          <div class="agenda-item" >
+            <h1 class="title is-size-4 is-size-5-mobile">
+              {{ title }}
+            </h1>
+          </div>
+        </template>
+      </wrapper>
     </div>
   </div>
 </template>
@@ -46,7 +55,8 @@ export default {
     imageSrc: String,
     company: String,
     language: String,
-    disabled: Boolean
+    disabled: Boolean,
+    subItem: Boolean
   }
 }
 </script>
@@ -77,6 +87,12 @@ export default {
   .wrapper {
     margin: 0;
     min-height: 10rem;
+  }
+
+  .sub-agenda {
+    min-height: 1rem;
+    text-align: center;
+    /*background-color: transparent;*/
   }
 
   .agenda-item {
