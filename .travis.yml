@@ -8,8 +8,9 @@ addons:
     packages:
       - rsync
       - sshpass
+language: node_js
 node_js:
-  - "node"
+  - "11"
 branches:
   only:
     - master

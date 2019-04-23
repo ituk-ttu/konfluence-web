@@ -50,6 +50,16 @@
               </div>
               <div class="column">
                 <a
+                  v-scroll-to="'#agenda'"
+                  title="Agenda"
+                  class="button is-primary is-outlined is-large is-rounded"
+                  :class="this.isMobile() ? 'is-fullwidth' : ''"
+                >
+                  AGENDA
+                </a>
+              </div>
+              <div class="column">
+                <a
                   v-scroll-to="'#organizers'"
                   class="button is-info is-outlined is-large is-rounded"
                   :class="this.isMobile() ? 'is-fullwidth' : ''"
@@ -93,10 +103,6 @@ export default {
   .hero {
     text-align: left;
     z-index: 10;
-  }
-
-  .button {
-    margin-right: 10px;
   }
 
   .gradient {
