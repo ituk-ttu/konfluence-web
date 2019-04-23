@@ -132,7 +132,7 @@ export default {
 
   @media (max-width: 900px) {
     .wrapper {
-      margin: 0.3rem 0.8rem 0 0.8rem;
+      margin: 0 0.8rem 0 0.8rem;
     }
 
     .image {
