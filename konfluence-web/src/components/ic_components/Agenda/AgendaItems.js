@@ -40,7 +40,7 @@ export const agendaItems = [
   {
     index: 6,
     time: '13.30',
-    title: "Back-endist vaade front-endi – kus jookseb piir? Praktiku kogemus.",
+    title: "From back-end to front-end – where's the line? A practicians view.",
     speaker: 'Vaiko Vahter',
     company: 'Finestmedia',
     imageSrc: 'https://i.imgur.com/vaYU7qa.png',
