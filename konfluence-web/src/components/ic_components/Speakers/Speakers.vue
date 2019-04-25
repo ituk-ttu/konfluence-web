@@ -37,9 +37,6 @@
         </div>
       </template>
     </div>
-    <h2 class="subtitle">
-      Last speaker TBA soon!
-    </h2>
   </div>
 </template>
 
