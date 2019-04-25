@@ -20,11 +20,6 @@ export const sponsors = [
     link: 'https://finestmedia.ee/'
   },
   {
-    company: 'Bolt',
-    imgUrl: 'https://imgur.com/r5uFkE1.png',
-    link: 'https://bolt.eu/'
-  },
-  {
     company: 'Pipedrive',
     imgUrl: 'https://imgur.com/Ym2e2xO.png',
     link: 'https://www.pipedrive.com'

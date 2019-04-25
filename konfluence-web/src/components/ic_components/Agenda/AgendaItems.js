@@ -38,7 +38,7 @@ export const agendaItems = [
     title: 'Lunch'
   },
   {
-    index: 6,
+    index: 7,
     time: '13.30',
     title: "From back-end to front-end – where's the line? A practicians view.",
     speaker: 'Vaiko Vahter',
@@ -48,7 +48,7 @@ export const agendaItems = [
     disabled: false
   },
   {
-    index: 7,
+    index: 8,
     time: '14.30',
     title: "Measuring the impact of design",
     speaker: 'Martin Kikkas',
@@ -58,13 +58,13 @@ export const agendaItems = [
     disabled: false
   },
   {
-    index: 8,
+    index: 9,
     subItem: true,
     time: '15.30',
     title: 'Coffee break'
   },
   {
-    index: 9,
+    index: 10,
     time: '16.00',
     title: "Sustainable web design",
     speaker: 'Grete Hints',
@@ -74,19 +74,9 @@ export const agendaItems = [
     disabled: false
   },
   {
-    index: 10,
-    time: '17.00',
-    title: "Why is BigBank big?",
-    speaker: 'Karl Mae',
-    company: 'BigBank',
-    imageSrc: 'https://imgur.com/FcDLy1t.png',
-    language: 'GB',
-    disabled: true
-  },
-  {
     index: 11,
     subItem: true,
-    time: '18.00',
+    time: '17.00',
     title: 'Conclusion'
   }
 ];
