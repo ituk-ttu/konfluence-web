@@ -22,7 +22,8 @@
           regular-price="15"
           button-color="color-red"
           footer-date="08/04/2019"
-          footer-text="Available from"
+          footer-text="Available to"
+          disabled="true"
         />
       </div>
       <div class="column is-one-third-widescreen is-half-tablet">
@@ -31,7 +32,6 @@
           student-price="15"
           regular-price="20"
           button-color="color-green"
-          disabled="true"
           footer-text="Event day"
         />
       </div>
