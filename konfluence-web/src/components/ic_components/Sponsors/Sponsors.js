@@ -48,5 +48,10 @@ export const sponsors = [
     company: 'Iglu',
     imgUrl: 'https://imgur.com/lY92C7P.png',
     link: 'https://iglu.ee/'
+  },
+  {
+    company: 'SEIK',
+    imgUrl: 'https://imgur.com/WODL64C.png',
+    link: 'https://seik.ee/'
   }
 ];
